@@ -653,7 +653,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1457970495}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.5, z: 50}
+  m_LocalPosition: {x: 0, y: 0.5, z: 100}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1990732203}
@@ -790,7 +790,7 @@ GameObject:
   - component: {fileID: 1990732205}
   - component: {fileID: 1990732204}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: "Markeringskub f\xF6r Target #1"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -936,6 +936,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tanken - Spelaren
+      objectReference: {fileID: 0}
+    - target: {fileID: 2056785355577425196, guid: c737d6d629d74254bb63ebefb141af44,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2056785355577425196, guid: c737d6d629d74254bb63ebefb141af44,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c737d6d629d74254bb63ebefb141af44, type: 3}
