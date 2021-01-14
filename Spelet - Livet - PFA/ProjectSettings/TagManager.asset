@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Death
+  - Key
+  - Right Key
+  - Left Key
   layers:
   - Default
   - TransparentFX
