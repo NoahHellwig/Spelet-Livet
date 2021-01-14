@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Death
   - Key
+  - Right Key
+  - Left Key
   layers:
   - Default
   - TransparentFX
