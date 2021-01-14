@@ -33,7 +33,7 @@ public class PersonenMovementScript : MonoBehaviour
 
         // Scale dist to speed - The closer dist the higher speed is to maxspeed.  
         float speed = scale(minDistance, maxDistance, maxSpeed, minSpeed, dist);
-        Debug.Log("This is the scaled dist to speed: " + speed);
+        //Debug.Log("This is the scaled dist to speed: " + speed);
 
 
         // The step size is equal to speed times frame time.
