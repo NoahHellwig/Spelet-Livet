@@ -18,16 +18,22 @@ public class KeyTextOnScreen : MonoBehaviour
     {
         if (GameInfo.storingKey == true) {
         
-            if(GameInfo.keyType == "Right") {
-            myKeyStatus = "Right";
+            if(GameInfo.keyType == "Key 1") {
+            myKeyStatus = "Key One  ";
             }
-            else if (GameInfo.keyType == "Left") {
-            myKeyStatus = "Left";
+            else if (GameInfo.keyType == "Key 2") {
+            myKeyStatus = "Key Two";
+            }
+            else if (GameInfo.keyType == "Key 3") {
+            myKeyStatus = "Key Three";
+            }
+            else if (GameInfo.keyType == "Key 4") {
+            myKeyStatus = "Key Four";
             }
         }
         else if (GameInfo.storingKey == false) {
             myKeyStatus = "None";
         }
-        myKeyText.text = "Current key:" + myKeyStatus;
+        myKeyText.text = "Current key: " + myKeyStatus;
     }
 }

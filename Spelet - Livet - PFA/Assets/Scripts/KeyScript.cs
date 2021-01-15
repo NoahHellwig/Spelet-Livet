@@ -12,17 +12,27 @@ public class KeyScript : MonoBehaviour
     
     public void OnTriggerEnter(Collider other) {
         if (GameInfo.storingKey == false) {
-            if (other.tag == "Right Key") {
+            if (other.tag == "Key 1") {
                 Destroy (other.gameObject);
                 //source.Play (); 
                 //GameInfo.NumCoins--;
                 GameInfo.storingKey = true;
-                GameInfo.keyType = "Right";
+                GameInfo.keyType = "Key 1";
             } 
-            else if (other.tag == "Left Key") {
+            else if (other.tag == "Key 2") {
                 Destroy (other.gameObject);
                 GameInfo.storingKey = true;
-                GameInfo.keyType = "Left";
+                GameInfo.keyType = "Key 2";
+            }
+            else if (other.tag == "Key 3") {
+                Destroy (other.gameObject);
+                GameInfo.storingKey = true;
+                GameInfo.keyType = "Key 3";
+            }
+            else if (other.tag == "Key 4") {
+                Destroy (other.gameObject);
+                GameInfo.storingKey = true;
+                GameInfo.keyType = "Key 4";
             }
         }     
     }
