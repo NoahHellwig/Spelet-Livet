@@ -5,7 +5,7 @@ using UnityEngine;
 public class WallMovement : MonoBehaviour
 {
     //private Rigidbody rbw; //a reference to the Rigidbody-component called "rb"
-    private float speedWall = 5f;
+    private float speedWall = 1.5f;
 
     // Update is called once per frame. Fixed update works better for physics stuff, Unity likes it better, will look smoother.
     void Update()
