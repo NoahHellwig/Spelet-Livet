@@ -5,22 +5,22 @@ using UnityEngine.UI;
 
 public class AvatarCloseToColliderScript : MonoBehaviour
 {
-    public void OnTriggerEnter(Collider other)
+    public void OnTriggerEnter(Collider other2)
     {
-        if (other.tag == "Avatar")
+        if (other2.tag == "Avatar")
         {
             GameInfo.avatarCloseToTarget = true;
-            Debug.Log("Avatar is close");
+            // Debug.Log("Avatar is close");
         }
 
     }
 
-    public void OnTriggerExit(Collider other)
+    public void OnTriggerExit(Collider other2)
     {
-        if (other.tag == "Avatar")
+        if (other2.tag == "Avatar")
         {
             GameInfo.avatarCloseToTarget = false;
-            Debug.Log("Avatar is NOT close");
+            //  Debug.Log("Avatar is NOT close");
         }
     }
 }

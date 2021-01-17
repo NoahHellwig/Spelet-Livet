@@ -4,14 +4,7 @@ using UnityEngine;
 
 public class ChangePositionsForTarget : MonoBehaviour
 {
-    #region // Target positions
-    // The player/tanken marker (needs to be choosen in Unity editor) 
-    [SerializeField]
-    Transform tanken;
-
-    // The avatar/personen marker (needs to be choosen in Unity editor) 
-    [SerializeField]
-    Transform personen;
+    #region  Transforms - Target positions
 
     // Första valet positionen 
     [SerializeField]
@@ -37,7 +30,30 @@ public class ChangePositionsForTarget : MonoBehaviour
     [SerializeField]
     Transform choiceTwo;
 
+    // Dörr #2 A position, innan gått igenom dörren.  
+    [SerializeField]
+    Transform choiceTwoDoorA;
+
+    // Dörr #2 B position, innan gått igenom dörren.
+    [SerializeField]
+    Transform choiceTwoDoorB;
+
+    // Dörr #2 A position, går igenom dörr #1A.  
+    [SerializeField]
+    Transform choiceTwoDoorApass;
+
+    // Dörr #2 B position, går igenom dörr #1B.
+    [SerializeField]
+    Transform choiceTwoDoorBpass;
+
+    // Andra valet positionen 
+    [SerializeField]
+    Transform choiceThree;
+
     #endregion
+
+    #region Booleans - Choices & Doors passed 
+
 
     // Choice #1  made.
     private bool choiceOneMade = false;
@@ -45,57 +61,63 @@ public class ChangePositionsForTarget : MonoBehaviour
     // Door #1 passed check.
     private bool doorOnePassed = false;
 
-    // String which says which key is held currently
-    private string keyTypeHeld;
+    // Choice #2  made.
+    private bool choiceTwoMade = false;
 
+    // Door #2 passed check.
+    private bool doorTwoPassed = false;
+
+    #endregion
 
     // Start is called before the first frame update
     void Start()
     {
+        // Starting position for target
         this.transform.position = choiceOne.position;
     }
 
-   
 
     void Update()
     {
-        // Get keyType from GameInfo which taken from KeyScritps 
-        keyTypeHeld = GameInfo.keyType;
-        // Debug.Log("This is the keyType held: " + keyTypeHeld);
+        // Debug.Log("This is the keyType held: " + GameInfo.keyType);
+        // Debug.Log("Player close to target: " + GameInfo.playerCloseToTarget);
+        // Debug.Log("Avatar close to target: " + GameInfo.avatarCloseToTarget);
 
-        
+      
 
         if (doorOnePassed == false)
         {   
             if (choiceOneMade == false)
             {
-                          
+                if (GameInfo.keyType == "Left" && GameInfo.playerCloseToTarget == true && GameInfo.avatarCloseToTarget == true)
+                {
+                    this.transform.position = choiceOneDoorApass.position;
+                    choiceOneMade = true;
+                    GameInfo.avatarCloseToTarget = false;
+                }
 
-                  
-                                // sats om keyTypeHeld = left & om tanken och Personen är inom collider radien/ytan 
-                                // { this.transform.position = choiceOneDoorApass.position; 
-                                //  choiceOneMade = true; } 
-
-
-                                // + Sammma som ovan fast för höger & Bpass 
-
-
-                if (keyTypeHeld == "Left") // *** BYT NAMN PÅ STRING SOM SÄGER LEFT TILL NYA NYCKELNAMN I KeyScripts när det ändras där ***
+                else if (GameInfo.keyType == "Right" && GameInfo.playerCloseToTarget == true && GameInfo.avatarCloseToTarget == true)
+                {
+                    this.transform.position = choiceOneDoorBpass.position;
+                    choiceOneMade = true;
+                    GameInfo.avatarCloseToTarget = false; 
+                }
+                             
+                else  if (GameInfo.keyType == "Left") // *** BYT NAMN PÅ STRING SOM SÄGER LEFT TILL NYA NYCKELNAMN I KeyScripts när det ändras där ***
                 { this.transform.position = choiceOneDoorA.position; }
 
-                else if (keyTypeHeld == "Right") // *** BYT NAMN PÅ STRING SOM SÄGER RIGHT TILL NYA NYCKELNAMN I KeyScripts när det ändras där ***
+                else if (GameInfo.keyType == "Right") // *** BYT NAMN PÅ STRING SOM SÄGER RIGHT TILL NYA NYCKELNAMN I KeyScripts när det ändras där ***
                 { this.transform.position = choiceOneDoorB.position; }
 
                 else { this.transform.position = choiceOne.position; }
 
             }
 
-            //if (choiceOneMade == true)
-            //{
-            //    // if sats om Personen är inom trigger området för target
-            //   //  { this.transform.position = choiceTwo.position; }
-            //}
-
+            else if (choiceOneMade == true && GameInfo.avatarCloseToTarget == true)
+            {
+                this.transform.position = choiceTwo.position;
+            }
+         
         }
     }
 

@@ -5,22 +5,22 @@ using UnityEngine.UI;
 
 public class PlayerCloseToColliderScript : MonoBehaviour
 {
-    public void OnTriggerEnter(Collider other)
+    public void OnTriggerEnter(Collider other3)
     {
-        if (other.tag == "Player")
+        if (other3.tag == "Player")
         {
             GameInfo.playerCloseToTarget = true;
-            Debug.Log("Player is close");
+            //Debug.Log("Player is close");
         }
        
     }
 
-    public void OnTriggerExit(Collider other)
+    public void OnTriggerExit(Collider other3)
     {
-        if (other.tag == "Player")
+        if (other3.tag == "Player")
         {
             GameInfo.playerCloseToTarget = false;
-            Debug.Log("Player is NOT close");
+            //Debug.Log("Player is NOT close");
         }
         
     }
