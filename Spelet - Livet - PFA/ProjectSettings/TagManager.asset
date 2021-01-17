@@ -8,6 +8,7 @@ TagManager:
   - Key
   - Right Key
   - Left Key
+  - Avatar
   layers:
   - Default
   - TransparentFX

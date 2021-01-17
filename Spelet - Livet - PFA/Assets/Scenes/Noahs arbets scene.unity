@@ -1346,6 +1346,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1645609042}
   - component: {fileID: 1645609043}
+  - component: {fileID: 1645609044}
+  - component: {fileID: 1645609045}
+  - component: {fileID: 1645609046}
   m_Layer: 0
   m_Name: Target
   m_TagString: Untagged
@@ -1388,6 +1391,43 @@ MonoBehaviour:
   choiceOneDoorApass: {fileID: 746179891}
   choiceOneDoorBpass: {fileID: 565372380}
   choiceTwo: {fileID: 334378070}
+--- !u!65 &1645609044
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645609041}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 8, y: 4, z: 8}
+  m_Center: {x: 0, y: 1, z: 0}
+--- !u!114 &1645609045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645609041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f34b4ce0d60efe459c26c7757491204, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1645609046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645609041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31028e89f8c06e64386561848dd30842, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1776001975 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2056785355577425193, guid: c737d6d629d74254bb63ebefb141af44,
@@ -1472,6 +1512,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Personen - Avataren
+      objectReference: {fileID: 0}
+    - target: {fileID: 7976785803809106017, guid: 3cb1f309f798d7d4d87f50ba6c91c770,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3cb1f309f798d7d4d87f50ba6c91c770, type: 3}
@@ -1738,6 +1783,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tanken - Spelaren
+      objectReference: {fileID: 0}
+    - target: {fileID: 2056785355577425193, guid: c737d6d629d74254bb63ebefb141af44,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c737d6d629d74254bb63ebefb141af44, type: 3}

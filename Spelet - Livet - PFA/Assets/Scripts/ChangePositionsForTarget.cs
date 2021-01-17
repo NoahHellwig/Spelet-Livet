@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ChangePositionsForTarget : MonoBehaviour
 {
+    #region // Target positions
     // The player/tanken marker (needs to be choosen in Unity editor) 
     [SerializeField]
     Transform tanken;
@@ -36,14 +37,17 @@ public class ChangePositionsForTarget : MonoBehaviour
     [SerializeField]
     Transform choiceTwo;
 
-    // 1st choice made.
+    #endregion
+
+    // Choice #1  made.
     private bool choiceOneMade = false;
 
     // Door #1 passed check.
     private bool doorOnePassed = false;
 
-    // String which says which key i held currently
-    private string keyTypeHeld; 
+    // String which says which key is held currently
+    private string keyTypeHeld;
+
 
     // Start is called before the first frame update
     void Start()
@@ -57,18 +61,23 @@ public class ChangePositionsForTarget : MonoBehaviour
     {
         // Get keyType from GameInfo which taken from KeyScritps 
         keyTypeHeld = GameInfo.keyType;
-        Debug.Log("This is the keyType held: " + keyTypeHeld);
+        // Debug.Log("This is the keyType held: " + keyTypeHeld);
+
+        
 
         if (doorOnePassed == false)
         {   
             if (choiceOneMade == false)
             {
-                // if sats om keyTypeHeld = left & om tanken och Personen är inom collider radien/ytan 
-                // { this.transform.position = choiceOneDoorApass.position; 
-                //  choiceOneMade = true; } 
+                          
+
+                  
+                                // sats om keyTypeHeld = left & om tanken och Personen är inom collider radien/ytan 
+                                // { this.transform.position = choiceOneDoorApass.position; 
+                                //  choiceOneMade = true; } 
 
 
-                // + Sammma som ovan fast för höger & Bpass 
+                                // + Sammma som ovan fast för höger & Bpass 
 
 
                 if (keyTypeHeld == "Left") // *** BYT NAMN PÅ STRING SOM SÄGER LEFT TILL NYA NYCKELNAMN I KeyScripts när det ändras där ***
@@ -81,12 +90,15 @@ public class ChangePositionsForTarget : MonoBehaviour
 
             }
 
-            if (choiceOneMade == true)
-            {
-                // if sats om Personen är inom trigger området för target
-               //  { this.transform.position = choiceTwo.position; }
-            }
+            //if (choiceOneMade == true)
+            //{
+            //    // if sats om Personen är inom trigger området för target
+            //   //  { this.transform.position = choiceTwo.position; }
+            //}
 
         }
     }
+
+    
+
 }
