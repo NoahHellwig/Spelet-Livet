@@ -580,6 +580,7 @@ GameObject:
   - component: {fileID: 823731435}
   - component: {fileID: 823731437}
   - component: {fileID: 823731436}
+  - component: {fileID: 823731438}
   m_Layer: 5
   m_Name: SecondCameraBorder
   m_TagString: Untagged
@@ -604,8 +605,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 150, y: 90}
-  m_SizeDelta: {x: 1420, y: 170}
+  m_AnchoredPosition: {x: 300, y: 90}
+  m_SizeDelta: {x: 3000, y: 170}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &823731436
 MonoBehaviour:
@@ -644,6 +645,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 823731434}
   m_CullTransparentMesh: 0
+--- !u!114 &823731438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823731434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f13d3224e6346f29a813683e7e3e63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rt: {fileID: 823731435}
 --- !u!1 &943087219
 GameObject:
   m_ObjectHideFlags: 0
@@ -747,6 +761,7 @@ GameObject:
   - component: {fileID: 1146919272}
   - component: {fileID: 1146919274}
   - component: {fileID: 1146919273}
+  - component: {fileID: 1146919275}
   m_Layer: 5
   m_Name: SecondCameraRenderer
   m_TagString: Untagged
@@ -771,7 +786,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 120, y: 0}
-  m_SizeDelta: {x: 1420, y: 160}
+  m_SizeDelta: {x: 3000, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1146919273
 MonoBehaviour:
@@ -807,6 +822,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1146919271}
   m_CullTransparentMesh: 0
+--- !u!114 &1146919275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1146919271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f13d3224e6346f29a813683e7e3e63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rt: {fileID: 1146919272}
 --- !u!4 &1299713517 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2056785356748407902, guid: c737d6d629d74254bb63ebefb141af44,
@@ -1056,6 +1084,7 @@ GameObject:
   - component: {fileID: 1774496060}
   - component: {fileID: 1774496059}
   - component: {fileID: 1774496061}
+  - component: {fileID: 1774496062}
   m_Layer: 0
   m_Name: Second Camera
   m_TagString: Untagged
@@ -1135,6 +1164,19 @@ MonoBehaviour:
   tanken: {fileID: 642654029}
   personen: {fileID: 1470687573}
   m_OrthographicCamera: {fileID: 1774496059}
+--- !u!114 &1774496062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1774496058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c3f001f619fa4daebac344a645fdb09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  secondCam: {fileID: 1774496059}
 --- !u!1001 &701371249622988530
 PrefabInstance:
   m_ObjectHideFlags: 0
