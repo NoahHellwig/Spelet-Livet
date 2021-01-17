@@ -54,18 +54,17 @@ public class ChangePositionsForTarget : MonoBehaviour
 
     #region Booleans - Choices & Doors passed 
 
-
     // Choice #1  made.
     private bool choiceOneMade = false;
 
     // Door #1 passed check.
     private bool doorOnePassed = false;
 
-    //// Choice #2  made.
-    //private bool choiceTwoMade = false;
+    // Choice #2  made.
+    private bool choiceTwoMade = false;
 
-    //// Door #2 passed check.
-    //private bool doorTwoPassed = false;
+    // Door #2 passed check.
+    private bool doorTwoPassed = false;
 
     #endregion
 
@@ -89,24 +88,24 @@ public class ChangePositionsForTarget : MonoBehaviour
         {   
             if (choiceOneMade == false)
             {
-                if (GameInfo.keyType == "Left" && GameInfo.playerCloseToTarget == true && GameInfo.avatarCloseToTarget == true)
+                if (GameInfo.keyType == "Key 1" && GameInfo.playerCloseToTarget == true && GameInfo.avatarCloseToTarget == true)
                 {
                     this.transform.position = choiceOneDoorApass.position;
                     choiceOneMade = true;
                     GameInfo.avatarCloseToTarget = false;
                 }
 
-                else if (GameInfo.keyType == "Right" && GameInfo.playerCloseToTarget == true && GameInfo.avatarCloseToTarget == true)
+                else if (GameInfo.keyType == "Key 2" && GameInfo.playerCloseToTarget == true && GameInfo.avatarCloseToTarget == true)
                 {
                     this.transform.position = choiceOneDoorBpass.position;
                     choiceOneMade = true;
                     GameInfo.avatarCloseToTarget = false; 
                 }
                              
-                else  if (GameInfo.keyType == "Left") // *** BYT NAMN PÅ STRING SOM SÄGER LEFT TILL NYA NYCKELNAMN I KeyScripts när det ändras där ***
+                else  if (GameInfo.keyType == "Key 1") // *** BYT NAMN PÅ STRING SOM SÄGER Key 1 TILL NYA NYCKELNAMN SOM I KeyScripts när det ändras där ***
                 { this.transform.position = choiceOneDoorA.position; }
 
-                else if (GameInfo.keyType == "Right") // *** BYT NAMN PÅ STRING SOM SÄGER RIGHT TILL NYA NYCKELNAMN I KeyScripts när det ändras där ***
+                else if (GameInfo.keyType == "Key 2") // *** BYT NAMN PÅ STRING SOM SÄGER Key 2 TILL NYA NYCKELNAMN SOM I KeyScripts när det ändras där ***
                 { this.transform.position = choiceOneDoorB.position; }
 
                 else { this.transform.position = choiceOne.position; }
@@ -119,6 +118,42 @@ public class ChangePositionsForTarget : MonoBehaviour
                 doorOnePassed = true; 
             }
          
+        }
+
+        else if (doorOnePassed == true && doorTwoPassed == false)
+        {
+            if (choiceTwoMade == false)
+            {
+                if (GameInfo.keyType == "Key 3" && GameInfo.playerCloseToTarget == true && GameInfo.avatarCloseToTarget == true)
+                {
+                    this.transform.position = choiceTwoDoorApass.position;
+                    choiceTwoMade = true;
+                    GameInfo.avatarCloseToTarget = false;
+                }
+
+                else if (GameInfo.keyType == "Key 4" && GameInfo.playerCloseToTarget == true && GameInfo.avatarCloseToTarget == true)
+                {
+                    this.transform.position = choiceTwoDoorBpass.position;
+                    choiceTwoMade = true;
+                    GameInfo.avatarCloseToTarget = false;
+                }
+
+                else if (GameInfo.keyType == "Key 3") // *** BYT NAMN PÅ STRING SOM SÄGER Key 1 TILL NYA NYCKELNAMN SOM I KeyScripts när det ändras där ***
+                { this.transform.position = choiceTwoDoorA.position; }
+
+                else if (GameInfo.keyType == "Key 4") // *** BYT NAMN PÅ STRING SOM SÄGER Key 2 TILL NYA NYCKELNAMN SOM I KeyScripts när det ändras där ***
+                { this.transform.position = choiceTwoDoorB.position; }
+
+                else { this.transform.position = choiceTwo.position; }
+
+            }
+
+            else if (choiceTwoMade == true && GameInfo.avatarCloseToTarget == true)
+            {
+                this.transform.position = choiceThree.position;
+                doorTwoPassed = true;
+            }
+
         }
     }
 
