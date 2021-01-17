@@ -116,6 +116,7 @@ public class ChangePositionsForTarget : MonoBehaviour
             else if (choiceOneMade == true && GameInfo.avatarCloseToTarget == true)
             {
                 this.transform.position = choiceTwo.position;
+                doorOnePassed = true; 
             }
          
         }
