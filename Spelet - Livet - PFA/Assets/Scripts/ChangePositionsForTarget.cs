@@ -61,11 +61,11 @@ public class ChangePositionsForTarget : MonoBehaviour
     // Door #1 passed check.
     private bool doorOnePassed = false;
 
-    // Choice #2  made.
-    private bool choiceTwoMade = false;
+    //// Choice #2  made.
+    //private bool choiceTwoMade = false;
 
-    // Door #2 passed check.
-    private bool doorTwoPassed = false;
+    //// Door #2 passed check.
+    //private bool doorTwoPassed = false;
 
     #endregion
 
