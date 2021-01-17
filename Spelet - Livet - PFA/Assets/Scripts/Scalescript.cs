@@ -5,7 +5,8 @@ using UnityEngine;
 public class Scalescript : MonoBehaviour
 {
 
-    public float testdist;
+    [SerializeField] 
+    float testdist;
 
     // Update is called once per frame
     void Update()
