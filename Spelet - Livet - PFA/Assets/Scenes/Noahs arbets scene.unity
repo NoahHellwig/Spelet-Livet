@@ -1383,14 +1383,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ad516c659a092b41b79081837802d2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tanken: {fileID: 0}
-  personen: {fileID: 0}
   choiceOne: {fileID: 515512123}
   choiceOneDoorA: {fileID: 279529155}
   choiceOneDoorB: {fileID: 73105345}
   choiceOneDoorApass: {fileID: 746179891}
   choiceOneDoorBpass: {fileID: 565372380}
   choiceTwo: {fileID: 334378070}
+  choiceTwoDoorA: {fileID: 0}
+  choiceTwoDoorB: {fileID: 0}
+  choiceTwoDoorApass: {fileID: 0}
+  choiceTwoDoorBpass: {fileID: 0}
+  choiceThree: {fileID: 0}
 --- !u!65 &1645609044
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1428,6 +1431,75 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31028e89f8c06e64386561848dd30842, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &1770706772
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2668289858773283661, guid: 1d6e3913a3ceaf4409b88ba7122da4c8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2668289858773283661, guid: 1d6e3913a3ceaf4409b88ba7122da4c8,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.5749998
+      objectReference: {fileID: 0}
+    - target: {fileID: 2668289858773283661, guid: 1d6e3913a3ceaf4409b88ba7122da4c8,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 110.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2668289858773283661, guid: 1d6e3913a3ceaf4409b88ba7122da4c8,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2668289858773283661, guid: 1d6e3913a3ceaf4409b88ba7122da4c8,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2668289858773283661, guid: 1d6e3913a3ceaf4409b88ba7122da4c8,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2668289858773283661, guid: 1d6e3913a3ceaf4409b88ba7122da4c8,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2668289858773283661, guid: 1d6e3913a3ceaf4409b88ba7122da4c8,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2668289858773283661, guid: 1d6e3913a3ceaf4409b88ba7122da4c8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2668289858773283661, guid: 1d6e3913a3ceaf4409b88ba7122da4c8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2668289858773283661, guid: 1d6e3913a3ceaf4409b88ba7122da4c8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2668289858773283662, guid: 1d6e3913a3ceaf4409b88ba7122da4c8,
+        type: 3}
+      propertyPath: m_Name
+      value: Magic Door Frame Only (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1d6e3913a3ceaf4409b88ba7122da4c8, type: 3}
 --- !u!1 &1776001975 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2056785355577425193, guid: c737d6d629d74254bb63ebefb141af44,
@@ -1807,3 +1879,72 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c737d6d629d74254bb63ebefb141af44, type: 3}
+--- !u!1001 &2138060545
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2668289858773283661, guid: 1d6e3913a3ceaf4409b88ba7122da4c8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.6899996
+      objectReference: {fileID: 0}
+    - target: {fileID: 2668289858773283661, guid: 1d6e3913a3ceaf4409b88ba7122da4c8,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.5749998
+      objectReference: {fileID: 0}
+    - target: {fileID: 2668289858773283661, guid: 1d6e3913a3ceaf4409b88ba7122da4c8,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 110.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2668289858773283661, guid: 1d6e3913a3ceaf4409b88ba7122da4c8,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2668289858773283661, guid: 1d6e3913a3ceaf4409b88ba7122da4c8,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2668289858773283661, guid: 1d6e3913a3ceaf4409b88ba7122da4c8,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2668289858773283661, guid: 1d6e3913a3ceaf4409b88ba7122da4c8,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2668289858773283661, guid: 1d6e3913a3ceaf4409b88ba7122da4c8,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2668289858773283661, guid: 1d6e3913a3ceaf4409b88ba7122da4c8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2668289858773283661, guid: 1d6e3913a3ceaf4409b88ba7122da4c8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2668289858773283661, guid: 1d6e3913a3ceaf4409b88ba7122da4c8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2668289858773283662, guid: 1d6e3913a3ceaf4409b88ba7122da4c8,
+        type: 3}
+      propertyPath: m_Name
+      value: Magic Door Frame Only (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1d6e3913a3ceaf4409b88ba7122da4c8, type: 3}
