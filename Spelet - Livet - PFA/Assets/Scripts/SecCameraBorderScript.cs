@@ -7,7 +7,7 @@ public class SecCameraBorderScript : MonoBehaviour
     public RectTransform rt;
    
     // Update is called once per frame
-    void Update()
+    void Start()
     {
         float width = Screen.width*2;
         float height = (Screen.height/4) + 10;
