@@ -7,7 +7,7 @@ public class doorControl : MonoBehaviour
     public float speed;
     public float angle;
     public Vector3 direction;
-    private GameObject battery;
+    private GameObject tanken;
 
     
     void Start()
@@ -15,7 +15,7 @@ public class doorControl : MonoBehaviour
         angle = transform.eulerAngles.y;
         //Tilldelar angle det värde, vad det än var, den hade vid uppstarten av programmet
 
-        battery = GameObject.Find("Battery");
+        tanken = GameObject.Find("Tanken - Spelaren");
     }
 
     // Update is called once per frame
@@ -23,7 +23,7 @@ public class doorControl : MonoBehaviour
     {
 
         //anger dörren utan att specificera då det ska gälla objektet som scriptet är knutet till - stämmer
-        float distance = Vector3.Distance(transform.position, battery.transform.position);
+        float distance = Vector3.Distance(transform.position, tanken.transform.position);
         float maxDistance = 10.0f;
         bool isNear = distance <= maxDistance;    
 
@@ -37,13 +37,13 @@ public class doorControl : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.O))
         {
-            angle = 180;
+            angle = 90;
             direction = Vector3.up; //Vector3.up ger motsatt håll 
         }
 
         if (Input.GetKeyDown(KeyCode.C))
         {
-            angle = 90;
+            angle = 0;
             direction = -Vector3.up; //Vector3.up ger motsatt håll 
         }
     }
