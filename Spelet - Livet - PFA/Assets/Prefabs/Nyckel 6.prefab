@@ -199,7 +199,6 @@ GameObject:
   - component: {fileID: 1714698095879915747}
   - component: {fileID: 706427999763445531}
   - component: {fileID: 2913330447645314661}
-  - component: {fileID: -92357546532161234}
   m_Layer: 0
   m_Name: Nyckel 6
   m_TagString: Key 6
@@ -216,7 +215,7 @@ Transform:
   m_GameObject: {fileID: 5035771539752276334}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 2, z: 0}
-  m_LocalScale: {x: 2.5, y: 1.5, z: 1.5}
+  m_LocalScale: {x: 1.5, y: 0.7, z: 0.7}
   m_Children:
   - {fileID: 4636008688162082463}
   - {fileID: 5785213513670039043}
@@ -283,19 +282,6 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &-92357546532161234
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5035771539752276334}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe72f2e7cf40444b4b2b107929c5eace, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rotateSpeed: 1
 --- !u!1 &5975384626056915308
 GameObject:
   m_ObjectHideFlags: 0
@@ -308,6 +294,7 @@ GameObject:
   - component: {fileID: 2660019059140979781}
   - component: {fileID: 3613432063386862232}
   - component: {fileID: 7528685701181744463}
+  - component: {fileID: 3234210961831911679}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -389,3 +376,16 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &3234210961831911679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5975384626056915308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe72f2e7cf40444b4b2b107929c5eace, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotateSpeed: 1
