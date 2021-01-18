@@ -454,9 +454,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33925ac954a544e7393e7ae91bd201a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   portal1: {fileID: 2099300088}
   portal2: {fileID: 1941970840}
   finalPortal: {fileID: 262359878}
+=======
+  chosenPath: []
+  portal1: {fileID: 2099300088}
+  portal2: {fileID: 1941970840}
+  finalPortal: {fileID: 262359878}
+  m_oldColor:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+>>>>>>> Stashed changes
 --- !u!65 &262359881
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -611,9 +623,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33925ac954a544e7393e7ae91bd201a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   portal1: {fileID: 2099300088}
   portal2: {fileID: 1941970840}
   finalPortal: {fileID: 262359878}
+=======
+  chosenPath: []
+  portal1: {fileID: 2099300088}
+  portal2: {fileID: 1941970840}
+  finalPortal: {fileID: 262359878}
+  m_oldColor:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+>>>>>>> Stashed changes
 --- !u!65 &276659447
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -766,6 +790,102 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c737d6d629d74254bb63ebefb141af44, type: 3}
+<<<<<<< Updated upstream
+=======
+--- !u!1 &321342465
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 321342469}
+  - component: {fileID: 321342468}
+  - component: {fileID: 321342467}
+  - component: {fileID: 321342466}
+  m_Layer: 0
+  m_Name: End Trigger Jossi
+  m_TagString: End Trigger
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &321342466
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 321342465}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 63.968838, z: 1}
+  m_Center: {x: 0, y: 31.484407, z: 0}
+--- !u!23 &321342467
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 321342465}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &321342468
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 321342465}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &321342469
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 321342465}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 88.1}
+  m_LocalScale: {x: -19.96, y: 0.08, z: 2.27}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> Stashed changes
 --- !u!1001 &502392725
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2110,9 +2230,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33925ac954a544e7393e7ae91bd201a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   portal1: {fileID: 2099300088}
   portal2: {fileID: 276659444}
   finalPortal: {fileID: 262359878}
+=======
+  chosenPath: []
+  portal1: {fileID: 2099300088}
+  portal2: {fileID: 276659444}
+  finalPortal: {fileID: 262359878}
+  m_oldColor:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+>>>>>>> Stashed changes
 --- !u!114 &2099300094
 MonoBehaviour:
   m_ObjectHideFlags: 0
