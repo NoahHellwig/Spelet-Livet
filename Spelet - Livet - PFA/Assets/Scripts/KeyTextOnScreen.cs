@@ -30,6 +30,18 @@ public class KeyTextOnScreen : MonoBehaviour
             else if (GameInfo.keyType == "Key 4") {
             myKeyStatus = "Key Four";
             }
+            else if (GameInfo.keyType == "Key 5") {
+            myKeyStatus = "Key Five";
+            }
+            else if (GameInfo.keyType == "Key 6") {
+            myKeyStatus = "Key Six";
+            }
+            else if (GameInfo.keyType == "Key 7") {
+            myKeyStatus = "Key Seven";
+            }
+            else if (GameInfo.keyType == "Key 8") {
+            myKeyStatus = "Key Eight";
+            }
         }
         else if (GameInfo.storingKey == false) {
             myKeyStatus = "None";

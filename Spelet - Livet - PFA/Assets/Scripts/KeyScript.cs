@@ -33,7 +33,27 @@ public class KeyScript : MonoBehaviour
                 Destroy (other.gameObject);
                 GameInfo.storingKey = true;
                 GameInfo.keyType = "Key 4";
+            } 
+            else if (other.tag == "Key 5") {
+                Destroy (other.gameObject);
+                GameInfo.storingKey = true;
+                GameInfo.keyType = "Key 5";
             }
-        }     
+            else if (other.tag == "Key 6") {
+                Destroy (other.gameObject);
+                GameInfo.storingKey = true;
+                GameInfo.keyType = "Key 6";
+            }
+            else if (other.tag == "Key 7") {
+                Destroy (other.gameObject);
+                GameInfo.storingKey = true;
+                GameInfo.keyType = "Key 7";
+            }
+            else if (other.tag == "Key 8") {
+                Destroy (other.gameObject);
+                GameInfo.storingKey = true;
+                GameInfo.keyType = "Key 8";
+            }
+        }    
     }
 }

@@ -26,7 +26,7 @@ public class SecondCameraScript : MonoBehaviour
 
             distance = Mathf.Abs(distance); //håller avståndsvärdet alltid positivt
 
-            if(distance >= 6) //om avståndet är 7 eller högre, följ personen
+            if(distance >= 6 ) //om avståndet är 7 eller högre, följ personen
             {
                 distance = 6;
                 follow = personen;
