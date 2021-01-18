@@ -31,7 +31,7 @@ public class SecondCameraScript : MonoBehaviour
                 distance = 6;
                 follow = personen;
 
-            } else if(distance <= 5) //om avståndet är 4 eller mindre, följ tanken
+            } else if(distance < 6) //om avståndet är 4 eller mindre, följ tanken
             {
                 distance = 6;
                 follow = tanken;
