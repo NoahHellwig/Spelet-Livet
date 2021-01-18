@@ -17,13 +17,13 @@ public class Portal : MonoBehaviour
 
     void OnTriggerEnter(Collider other) 
     {
-        Debug.Log(other.name);
+        Debug.Log(other.tag);
     }
 
     void OnTriggerStay(Collider other) 
     {
-        //Anger att denna collider inte känner av något annat än Main Camera
-        if (other.name != "Battery"){
+        //Anger att denna collider inte känner av något annat än spelaren
+        if (other.tag != "Player"){
             Debug.Log(other.name);
             return;           
         }

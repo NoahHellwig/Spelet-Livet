@@ -24,7 +24,7 @@ public class doorControl : MonoBehaviour
 
         //anger dörren utan att specificera då det ska gälla objektet som scriptet är knutet till - stämmer
         float distance = Vector3.Distance(transform.position, tanken.transform.position);
-        float maxDistance = 10.0f;
+        float maxDistance = 5.0f;
         bool isNear = distance <= maxDistance;    
 
         if (Mathf.Round(transform.eulerAngles.y) != angle)
