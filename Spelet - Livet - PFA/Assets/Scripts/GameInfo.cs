@@ -4,4 +4,6 @@
 
     public static bool playerCloseToTarget { get; set; }
     public static bool avatarCloseToTarget { get; set; }
+
+    public static bool avatarReachedEnd { get; set; }
 } 

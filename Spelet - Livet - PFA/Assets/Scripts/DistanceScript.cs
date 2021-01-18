@@ -13,7 +13,7 @@ public class DistanceScript : MonoBehaviour
             // Calculate distance between script carrier and "other". 
             float dist = Vector3.Distance(other.position, transform.position);
 
-            // Uncomment Debug below to see distance between other and scriptcarrier. 
+            //  Log to see distance between other and scriptcarrier. 
             Debug.Log("Distance to other" + dist);
         }
 }

@@ -82,12 +82,15 @@ public class ChangePositionsForTarget : MonoBehaviour
         // Debug.Log("Player close to target: " + GameInfo.playerCloseToTarget);
         // Debug.Log("Avatar close to target: " + GameInfo.avatarCloseToTarget);
 
-      
+        #region Target positions for 1st section
 
+        // Så änge inte första dörren passerats igenom
         if (doorOnePassed == false)
         {   
+            // Så länge inte ett första val har gjorts
             if (choiceOneMade == false)
             {
+                // Om man håller i Key 1, samt att tanken/player & personen/avataren är nära target som är framför dörrarna. Då gå igenom dörr #1A
                 if (GameInfo.keyType == "Key 1" && GameInfo.playerCloseToTarget == true && GameInfo.avatarCloseToTarget == true)
                 {
                     this.transform.position = choiceOneDoorApass.position;
@@ -95,23 +98,27 @@ public class ChangePositionsForTarget : MonoBehaviour
                     GameInfo.avatarCloseToTarget = false;
                 }
 
+                // Om man håller i Key 2, samt att tanken/player & personen/avataren är nära target som är framför dörrarna. Då gå igenom dörr #1B
                 else if (GameInfo.keyType == "Key 2" && GameInfo.playerCloseToTarget == true && GameInfo.avatarCloseToTarget == true)
                 {
                     this.transform.position = choiceOneDoorBpass.position;
                     choiceOneMade = true;
                     GameInfo.avatarCloseToTarget = false; 
                 }
-                             
+                
+                // Håller man i Key 1 så byts target position till framför dörr #1A. 
                 else  if (GameInfo.keyType == "Key 1") // *** BYT NAMN PÅ STRING SOM SÄGER Key 1 TILL NYA NYCKELNAMN SOM I KeyScripts när det ändras där ***
                 { this.transform.position = choiceOneDoorA.position; }
 
+                // Håller man i Key 2 så byts target position till framför dörr #1B. 
                 else if (GameInfo.keyType == "Key 2") // *** BYT NAMN PÅ STRING SOM SÄGER Key 2 TILL NYA NYCKELNAMN SOM I KeyScripts när det ändras där ***
                 { this.transform.position = choiceOneDoorB.position; }
 
+                // Håller man inte i någon nyckel så hamnar target på start positionen. 
                 else { this.transform.position = choiceOne.position; }
 
             }
-
+            // När första valet har gjort och Personen/Avataren passerat dörren och är nära target så byts target till start position för sektion två. 
             else if (choiceOneMade == true && GameInfo.avatarCloseToTarget == true)
             {
                 this.transform.position = choiceTwo.position;
@@ -119,6 +126,9 @@ public class ChangePositionsForTarget : MonoBehaviour
             }
          
         }
+        #endregion 
+
+        #region Target positions for 2nd section
 
         else if (doorOnePassed == true && doorTwoPassed == false)
         {
@@ -155,8 +165,10 @@ public class ChangePositionsForTarget : MonoBehaviour
             }
 
         }
+        #endregion
+
     }
 
-    
+
 
 }
