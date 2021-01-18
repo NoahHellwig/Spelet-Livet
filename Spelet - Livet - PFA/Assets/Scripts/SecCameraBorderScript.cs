@@ -11,7 +11,7 @@ public class SecCameraBorderScript : MonoBehaviour
     {
         float width = Screen.width*2;
         float height = (Screen.height/4) + 10;
-        float xPos = 300f;
+        float xPos = 200f;
         float yPos = Screen.height*0.15f;
 
         //Debug.Log(yPos);
