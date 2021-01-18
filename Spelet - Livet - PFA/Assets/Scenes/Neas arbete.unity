@@ -1407,7 +1407,7 @@ PrefabInstance:
     - target: {fileID: 5945271379646648692, guid: 0a2d6426b9e8d41afb770b54c7cfc753,
         type: 3}
       propertyPath: m_Name
-      value: Right Key
+      value: TestDoor2
       objectReference: {fileID: 0}
     - target: {fileID: 5945271379646648692, guid: 0a2d6426b9e8d41afb770b54c7cfc753,
         type: 3}

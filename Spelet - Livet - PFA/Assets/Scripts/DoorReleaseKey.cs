@@ -28,7 +28,7 @@ public class DoorReleaseKey : MonoBehaviour
     // Update is called once per frame
     public void OnTriggerEnter(Collider other) {
         if (GameInfo.storingKey == true) {
-            if (other.tag == "Door") 
+            if (other.tag == "Portal 1" || other.tag == "Portal 2" || other.tag == "Portal 3" || other.tag == "Portal 4" || other.tag == "Portal 5" || other.tag == "Portal 6" || other.tag == "Portal 7" || other.tag == "Portal 8") 
             {
                 if (GameInfo.keyType == "Key 1") {
                     Instantiate(newKey1, placementKey1.position, placementKey1.rotation);
