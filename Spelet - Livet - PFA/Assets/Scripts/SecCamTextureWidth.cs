@@ -12,6 +12,7 @@ public class SecCamTextureWidth : MonoBehaviour
     {
 
         secondCam.targetTexture.width = (int)(Screen.width * 2);
+        secondCam.targetTexture.height = (int)(Screen.height/4);
 
          //Debug.Log(Screen.dpi);
     }
