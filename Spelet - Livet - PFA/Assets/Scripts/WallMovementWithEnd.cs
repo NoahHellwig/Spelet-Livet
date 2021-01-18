@@ -16,7 +16,7 @@ public class WallMovementWithEnd : MonoBehaviour
 
         if (GameInfo.avatarReachedEnd == true)
         {
-            Debug.Log("Wall sees Personen/Avatar at the End");
+            // Debug.Log("Wall sees Personen/Avatar at the End");
         }
 
         //add forward force 
