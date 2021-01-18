@@ -12,6 +12,11 @@ TagManager:
   - Key 2
   - Key 3
   - Key 4
+  - Avatar
+  - Key 5
+  - Key 6
+  - Key 7
+  - Key 8
   layers:
   - Default
   - TransparentFX
