@@ -33,6 +33,7 @@ public class DoorReleaseKey : MonoBehaviour
                 if (GameInfo.keyType == "Key 1") {
                     Instantiate(newKey1, placementKey1.position, placementKey1.rotation);
                     GameInfo.storingKey = false;
+                    Debug.Log("hej");
                 } 
                 else if (GameInfo.keyType == "Key 2") {
                     Instantiate(newKey2, placementKey2.position, placementKey2.rotation);
@@ -45,16 +46,20 @@ public class DoorReleaseKey : MonoBehaviour
                 else if (GameInfo.keyType == "Key 4") {
                     Instantiate(newKey4, placementKey4.position, placementKey4.rotation);
                     GameInfo.storingKey = false;
-                } else if (GameInfo.keyType == "Key 5") {
+                } 
+                else if (GameInfo.keyType == "Key 5") {
                     Instantiate(newKey5, placementKey5.position, placementKey5.rotation);
                     GameInfo.storingKey = false;
-                } else if (GameInfo.keyType == "Key 6") {
+                } 
+                else if (GameInfo.keyType == "Key 6") {
                     Instantiate(newKey6, placementKey6.position, placementKey6.rotation);
                     GameInfo.storingKey = false;
-                } else if (GameInfo.keyType == "Key 7") {
+                } 
+                else if (GameInfo.keyType == "Key 7") {
                     Instantiate(newKey7, placementKey7.position, placementKey7.rotation);
                     GameInfo.storingKey = false;
-                } else if (GameInfo.keyType == "Key 8") {
+                } 
+                else if (GameInfo.keyType == "Key 8") {
                     Instantiate(newKey8, placementKey8.position, placementKey8.rotation);
                     GameInfo.storingKey = false;
                 }
