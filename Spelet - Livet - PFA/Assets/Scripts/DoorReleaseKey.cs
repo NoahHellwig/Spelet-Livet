@@ -33,7 +33,7 @@ public class DoorReleaseKey : MonoBehaviour
                 if (GameInfo.keyType == "Key 1") {
                     Instantiate(newKey1, placementKey1.position, placementKey1.rotation);
                     GameInfo.storingKey = false;
-                    Debug.Log("hej");
+                    //Debug.Log("hej");
                 } 
                 else if (GameInfo.keyType == "Key 2") {
                     Instantiate(newKey2, placementKey2.position, placementKey2.rotation);
