@@ -28,12 +28,12 @@ public class SecondCameraScript : MonoBehaviour
 
             if(distance >= 6 ) //om avståndet är 7 eller högre, följ personen
             {
-                distance = 6;
+                distance = 12; //används för kamera-avståndet på skärmen ZOOM
                 follow = personen;
 
             } else if(distance < 6) //om avståndet är 4 eller mindre, följ tanken
             {
-                distance = 6;
+                distance = 12; //används för kamera-avståndet på skärmen ZOOM
                 follow = tanken;
             }
 
