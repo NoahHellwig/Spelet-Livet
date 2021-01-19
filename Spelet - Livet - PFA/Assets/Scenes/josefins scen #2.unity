@@ -241,28 +241,15 @@ GameObject:
   m_Component:
   - component: {fileID: 88357122}
   - component: {fileID: 88357121}
-  - component: {fileID: 88357120}
   - component: {fileID: 88357124}
   - component: {fileID: 88357123}
   m_Layer: 0
   m_Name: EndTrigger
-  m_TagString: End Trigger
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &88357120
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 88357119}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8c697ee0c5ab40049881fde1ac083273, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &88357121
 BoxCollider:
   m_ObjectHideFlags: 0
