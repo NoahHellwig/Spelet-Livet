@@ -17,6 +17,8 @@ TagManager:
   - Key 6
   - Key 7
   - Key 8
+  - End Trigger
+  - Portal
   layers:
   - Default
   - TransparentFX

@@ -8,15 +8,18 @@ public class TriggerTest : MonoBehaviour
     
     public GameObject portal1;
     public GameObject portal2;
-    public GameObject finalPortal;
+    public GameObject portal3;
+    public GameObject portal4;
+
 
 
     void Start()
     {
         //Sätter texten för GameObjects
         portal1.name = "you partyed all night.";
-        portal2.name = "you slept all day.";
-        finalPortal.name = "until you didn't.";
+        portal2.name = "you slept all day.";        
+        portal3.name = "you were tired.";
+        portal4.name = "you had energy.";
     }
 
 //Grundfärg på tröskel bara för test
