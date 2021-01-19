@@ -1012,10 +1012,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1084316441}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b893a3c46c18e409594638052a1fa814, type: 3}
+  m_Script: {fileID: 11500000, guid: 81ce0c188604845d3b5f5c22b1216bc6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PortalName: Second Portal Quest Left
+  PortalName: Second Portal Left
 --- !u!65 &1084316444
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1263,7 +1263,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1310131193}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 32b43a1924af94e7ba9e087dc98a3dab, type: 3}
+  m_Script: {fileID: 11500000, guid: d846e7a07481f466bba8a84ee331210b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!65 &1310131195
@@ -1603,7 +1603,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1401766679}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8076ce6373a9e44c192dda1f2000055a, type: 3}
+  m_Script: {fileID: 11500000, guid: 6fc95cf7635164f58b38fc7fd8ceebcb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1477138997
@@ -1665,10 +1665,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1586520446}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b893a3c46c18e409594638052a1fa814, type: 3}
+  m_Script: {fileID: 11500000, guid: 81ce0c188604845d3b5f5c22b1216bc6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PortalName: First Portal Quest Right
+  PortalName: First Portal Right
 --- !u!65 &1586520448
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2146,10 +2146,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1779969349}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b893a3c46c18e409594638052a1fa814, type: 3}
+  m_Script: {fileID: 11500000, guid: 81ce0c188604845d3b5f5c22b1216bc6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PortalName: First Portal Quest Left
+  PortalName: First Portal Left
 --- !u!65 &1779969351
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2432,10 +2432,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2044541129}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b893a3c46c18e409594638052a1fa814, type: 3}
+  m_Script: {fileID: 11500000, guid: 81ce0c188604845d3b5f5c22b1216bc6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PortalName: Second Portal Quest Right
+  PortalName: Second Portal Right
 --- !u!65 &2044541132
 BoxCollider:
   m_ObjectHideFlags: 0
