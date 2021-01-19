@@ -6,7 +6,6 @@ public class Arrays : MonoBehaviour
 {
 
   //  public GameObject[] portals;
-    List<GameObject> portals = new List<GameObject>();
 
 
     
@@ -23,11 +22,7 @@ public class Arrays : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Portal")
-        {
-            portals.Add(other.gameObject);   
-        }
-        Debug.Log("Went through door" + ' ' + List.GameObject);
+       
 
     }
 
