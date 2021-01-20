@@ -7,7 +7,7 @@ public class PortalEnter : MonoBehaviour
 
     public static bool PlayerIsEntering = false; 
     public Renderer cube; 
-    public string PortalName; 
+    //public string PortalName; 
 
     void OnTriggerEnter(Collider other)
     {
