@@ -6,7 +6,7 @@ using UnityEngine.Rendering;
 public class Exit : MonoBehaviour
 {
      
-    public Renderer cube;   
+    //public Renderer cube;   
     public Material[] materialstwo;
     
 
@@ -20,7 +20,7 @@ public class Exit : MonoBehaviour
 
 
         if(GameInfo.PlayerIsEntering == true) {
-            cube.material.color = Color.black;
+            //cube.material.color = Color.black;
             foreach (var mat in materialstwo) 
             {               
                 mat.SetInt("_StencilTest", (int)CompareFunction.NotEqual);   
@@ -32,7 +32,7 @@ public class Exit : MonoBehaviour
         } else {
             GameInfo.PlayerIsExiting = true;
              
-            cube.material.color = Color.yellow;
+            //cube.material.color = Color.yellow;
             Debug.Log("Trigger portal exiting");
             foreach (var mat in materialstwo)
             {

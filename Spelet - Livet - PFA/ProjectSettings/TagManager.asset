@@ -18,6 +18,12 @@ TagManager:
   - Key 7
   - Key 8
   - Door
+  - Portal 1
+  - Portal 2
+  - Portal 3
+  - Portal 4
+  - Portal 5
+  - Portal 6
   layers:
   - Default
   - TransparentFX

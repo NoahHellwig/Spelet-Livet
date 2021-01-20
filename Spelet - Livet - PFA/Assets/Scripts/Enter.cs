@@ -5,7 +5,7 @@ using UnityEngine.Rendering;
 
 public class Enter : MonoBehaviour
 {
-    public Renderer cube;  
+    //public Renderer cube;  
     public Material[] materials;
 
     void Start()
@@ -28,14 +28,14 @@ public class Enter : MonoBehaviour
         if(GameInfo.PlayerIsExiting == true) {
             // show old world
             Debug.Log("Is exiting");
-            cube.material.color = Color.red;
+            //cube.material.color = Color.red;
             GameInfo.PlayerIsExiting = false;
 
         //Om inte, sätts PlayerIsEntering till true, och     
         } else {
             GameInfo.PlayerIsEntering = true;
             Debug.Log("Is entering"); 
-            cube.material.color = Color.white;
+            //cube.material.color = Color.white;
         }      
     }
 
