@@ -19,7 +19,7 @@ public class KeyTextOnScreen : MonoBehaviour
         } else {
             myKeyText.fontSize = 15;
         }
-        Debug.Log(Screen.width);
+        //Debug.Log(Screen.width);
 
 
         float xPosText = Screen.width*0.4f;
