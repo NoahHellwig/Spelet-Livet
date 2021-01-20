@@ -7,10 +7,28 @@ public class KeyTextOnScreen : MonoBehaviour
 {
     public Text myKeyText;
     private string myKeyStatus;
+
+    public RectTransform rt2;
   
     void Start() 
     {
         GameInfo.storingKey = false;
+
+        if(Screen.width > 700) {
+            myKeyText.fontSize = 20;
+        } else {
+            myKeyText.fontSize = 15;
+        }
+        Debug.Log(Screen.width);
+
+
+        float xPosText = Screen.width*0.4f;
+        float yPosText = Screen.height*0.4f; //15
+        //Debug.Log(xPosText);
+        //Debug.Log(yPosText);
+        //Debug.Log(yPos);
+        
+        rt2.anchoredPosition = new Vector2(xPosText, yPosText);
 
     }
     // Update is called once per frame
@@ -46,6 +64,7 @@ public class KeyTextOnScreen : MonoBehaviour
         else if (GameInfo.storingKey == false) {
             myKeyStatus = "None";
         }
+        
         myKeyText.text = "Current key: " + myKeyStatus;
     }
 }
