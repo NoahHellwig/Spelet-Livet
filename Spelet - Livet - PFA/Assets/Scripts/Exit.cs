@@ -5,45 +5,38 @@ using UnityEngine.Rendering;
 
 public class Exit : MonoBehaviour
 {
-    public static bool PlayerIsExiting = false; 
-    //public Renderer cube; 
-    public Material[] materials;
-    //private Material[] materials; 
+     
+    //public Renderer cube;   
+    public Material[] materialstwo;
     
-    //void Start()
-    //{
-    //    materials = GameObject.Find("Enter").GetComponents<Material>();
-    //}
 
     void OnTriggerEnter(Collider other)
     {
+        GameInfo.PlayerIsExiting = false;
+
         if (other.tag != "Player") {
             return;
         }
 
 
-        if(PortalEnter.PlayerIsEntering == true) {
-            // show old world
-            //Debug.Log("is entering"); 
+        if(GameInfo.PlayerIsEntering == true) {
             //cube.material.color = Color.black;
-            foreach (var mat in materials) 
-            {
-                
-                mat.SetInt("_StencilTest", (int)CompareFunction.Equal);
-                
+            foreach (var mat in materialstwo) 
+            {               
+                mat.SetInt("_StencilTest", (int)CompareFunction.NotEqual);   
             }
 
-            PortalEnter.PlayerIsEntering = false;
+            GameInfo.PlayerIsEntering = false;
 
             Debug.Log("Händer detta?");
         } else {
-            PlayerIsExiting = true;
-            //Debug.Log("Player is exiting"); 
-            //cube.material.color = Color.black;
+            GameInfo.PlayerIsExiting = true;
+             
+            //cube.material.color = Color.yellow;
             Debug.Log("Trigger portal exiting");
-            foreach (var mat in materials)
+            foreach (var mat in materialstwo)
             {
-                mat.SetInt("_StencilTest", (int)CompareFunction.NotEqual);
+                mat.SetInt("_StencilTest", (int)CompareFunction.Equal);
             }
         }    
     }

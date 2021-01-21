@@ -6,4 +6,6 @@
     public static bool avatarCloseToTarget { get; set; }
 
     public static bool avatarReachedEnd { get; set; }
+    public static bool PlayerIsEntering { get; set; }
+    public static bool PlayerIsExiting { get; set; }
 } 
