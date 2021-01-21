@@ -22,7 +22,7 @@ public class KeyTextOnScreen : MonoBehaviour
         //Debug.Log(Screen.width);
 
 
-        float xPosText = Screen.width*0.4f;
+        float xPosText = Screen.width*0.3f;
         float yPosText = Screen.height*0.4f; //15
         //Debug.Log(xPosText);
         //Debug.Log(yPosText);
