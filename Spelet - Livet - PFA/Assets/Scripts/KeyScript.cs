@@ -1,59 +1,34 @@
-﻿using System.Collections;
+﻿
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class KeyScript : MonoBehaviour
 {
- 
-    //if colliding with key
-    //check if already storing key
-    //if not, pick up key
-    
-    public void OnTriggerEnter(Collider other) {
-        if (GameInfo.storingKey == false) {
-            if (other.tag == "Key 1") {
-                Destroy (other.gameObject);
-                //source.Play (); 
-                //GameInfo.NumCoins--;
-                GameInfo.storingKey = true;
-                GameInfo.keyType = "Key 1";
-            } 
-            else if (other.tag == "Key 2") {
-                Destroy (other.gameObject);
-                GameInfo.storingKey = true;
-                GameInfo.keyType = "Key 2";
+
+    public GameObject[] newKeys; //lista med nycklar
+    public Transform[] placementKeys; //lista med nyckel-positioner
+
+        public void OnTriggerEnter(Collider other) { 
+           string[] otherTypeAndId = other.tag.Split(' '); //dela upp tag:en på mellanslag och lägg i lista
+
+            //om GameInfo.currentlyHeldKey  inte är samma som other.tag och första ordet i tagen är "Key"
+            if ((GameInfo.keyType != other.tag) && (otherTypeAndId[0] == "Key")) { 
+
+                //om GameInfo.currentlyHeldKey inte är "None"
+                if (GameInfo.keyType != "None") {
+                    string[] currentKeyTypeAndId = GameInfo.keyType.Split(' '); //dela upp GameInfo.currentlyHeldKey  
+                    int id = int.Parse(currentKeyTypeAndId[1]); //gör andra ordet i listan till en int
+
+
+                    //skapa nyckel baserat på vilken nyckel du hållit i 
+                    Instantiate(newKeys[id - 1], placementKeys[id - 1].position, placementKeys[id - 1].rotation);
+                   
+                }
+   
+                GameInfo.keyType = other.tag; //ändra GameInfo.keyType 
+                Destroy (other.gameObject); //förstör objektet
             }
-            else if (other.tag == "Key 3") {
-                Destroy (other.gameObject);
-                GameInfo.storingKey = true;
-                GameInfo.keyType = "Key 3";
-            }
-            else if (other.tag == "Key 4") {
-                Destroy (other.gameObject);
-                GameInfo.storingKey = true;
-                GameInfo.keyType = "Key 4";
-            } 
-            else if (other.tag == "Key 5") {
-                Destroy (other.gameObject);
-                GameInfo.storingKey = true;
-                GameInfo.keyType = "Key 5";
-            }
-            else if (other.tag == "Key 6") {
-                Destroy (other.gameObject);
-                GameInfo.storingKey = true;
-                GameInfo.keyType = "Key 6";
-            }
-            else if (other.tag == "Key 7") {
-                Destroy (other.gameObject);
-                GameInfo.storingKey = true;
-                GameInfo.keyType = "Key 7";
-            }
-            else if (other.tag == "Key 8") {
-                Destroy (other.gameObject);
-                GameInfo.storingKey = true;
-                GameInfo.keyType = "Key 8";
-            }
-        }    
-    }
+        }
+            
 }

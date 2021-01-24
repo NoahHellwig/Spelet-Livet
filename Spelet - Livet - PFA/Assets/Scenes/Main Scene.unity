@@ -3114,26 +3114,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48d1b1d9b6d3442f9b832221f42eb85a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1900102560
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1900102553}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f0e5cabc87c7a4bdd8b48b64774b395c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  newKey1: {fileID: 2582357432283320501, guid: 9891bfeba48b64bb8bc7b9f770ca4021, type: 3}
-  newKey2: {fileID: 3831902687016494004, guid: c8b9104a8e8a34a30b7ea70dfc7ee635, type: 3}
-  newKey3: {fileID: 378143301439101992, guid: 6b77425cc7d114a6ea9a46595495b42a, type: 3}
-  newKey4: {fileID: 1592334891327554936, guid: 194f4c7093c234a78a3e12a8aea890a4, type: 3}
-  placementKey1: {fileID: 658581155}
-  placementKey2: {fileID: 1965412452}
-  placementKey3: {fileID: 340926338}
-  placementKey4: {fileID: 1401184791}
+  newKeys:
+  - {fileID: 2582357432283320501, guid: 9891bfeba48b64bb8bc7b9f770ca4021, type: 3}
+  - {fileID: 3831902687016494004, guid: c8b9104a8e8a34a30b7ea70dfc7ee635, type: 3}
+  - {fileID: 378143301439101992, guid: 6b77425cc7d114a6ea9a46595495b42a, type: 3}
+  - {fileID: 1592334891327554936, guid: 194f4c7093c234a78a3e12a8aea890a4, type: 3}
+  placementKeys:
+  - {fileID: 658581155}
+  - {fileID: 1965412452}
+  - {fileID: 340926338}
+  - {fileID: 1401184791}
 --- !u!1 &1907636323
 GameObject:
   m_ObjectHideFlags: 0
