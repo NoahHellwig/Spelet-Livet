@@ -628,6 +628,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1939854586296088429, guid: c737d6d629d74254bb63ebefb141af44,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.29
+      objectReference: {fileID: 0}
     - target: {fileID: 2056785355577425187, guid: c737d6d629d74254bb63ebefb141af44,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -698,6 +703,11 @@ PrefabInstance:
       propertyPath: field of view
       value: 60
       objectReference: {fileID: 0}
+    - target: {fileID: 2056785356748407897, guid: c737d6d629d74254bb63ebefb141af44,
+        type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 55
+      objectReference: {fileID: 0}
     - target: {fileID: 2056785356748407902, guid: c737d6d629d74254bb63ebefb141af44,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -732,6 +742,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5100237064209593569, guid: c737d6d629d74254bb63ebefb141af44,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c737d6d629d74254bb63ebefb141af44, type: 3}
