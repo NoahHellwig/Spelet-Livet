@@ -8,34 +8,30 @@ public class KeyTextOnScreen : MonoBehaviour
     public Text myKeyText;
     private string myKeyStatus;
 
-    public RectTransform rt2;
+    public RectTransform rt2; //textens position på skärmen
   
     void Start() 
     {
-        GameInfo.storingKey = false;
+        
+        GameInfo.keyType  = "None"; 
 
-        if(Screen.width > 700) {
+        //textstorlek ställs in beroende på hur stor skärmen är
+        if(Screen.width > 700) { 
             myKeyText.fontSize = 20;
         } else {
             myKeyText.fontSize = 15;
         }
-        //Debug.Log(Screen.width);
 
 
-        float xPosText = Screen.width*0.3f;
-        float yPosText = Screen.height*0.4f; //15
-        //Debug.Log(xPosText);
-        //Debug.Log(yPosText);
-        //Debug.Log(yPos);
-        
-        rt2.anchoredPosition = new Vector2(xPosText, yPosText);
+        float xPosText = Screen.width*0.3f; 
+        float yPosText = Screen.height*0.4f;
+        rt2.anchoredPosition = new Vector2(xPosText, yPosText); //textens position på skärmen
 
     }
-    // Update is called once per frame
+
     void Update()
     {
-        if (GameInfo.storingKey == true) {
-        
+
             if(GameInfo.keyType == "Key 1") {
             myKeyStatus = "Key One  ";
             }
@@ -60,10 +56,10 @@ public class KeyTextOnScreen : MonoBehaviour
             else if (GameInfo.keyType == "Key 8") {
             myKeyStatus = "Key Eight";
             }
-        }
-        else if (GameInfo.storingKey == false) {
-            myKeyStatus = "None";
-        }
+            else {
+                myKeyStatus = "None";
+            }
+     
         
         myKeyText.text = "Current key: " + myKeyStatus;
     }
