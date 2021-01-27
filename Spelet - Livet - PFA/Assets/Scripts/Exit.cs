@@ -3,12 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering;
 
+
+
 public class Exit : MonoBehaviour
 {
      
     //public Renderer cube;   
+    GameObject myPlayer;
+    PlayerHistory ph;
     public Material[] materialstwo;
-    
+    void Start() {
+        myPlayer = GameObject.Find("Tanken - Spelaren");
+        ph = myPlayer.GetComponent<PlayerHistory>();
+    }
 
     void OnTriggerEnter(Collider other)
     {
@@ -18,9 +25,15 @@ public class Exit : MonoBehaviour
             return;
         }
 
+        //Hämta string med spelarens historik
+        
+        if (ph.History == "BB"){
+            Debug.Log("Booooooo");
+        }
 
         if(GameInfo.PlayerIsEntering == true) {
             //cube.material.color = Color.black;
+
             foreach (var mat in materialstwo) 
             {               
                 mat.SetInt("_StencilTest", (int)CompareFunction.NotEqual);   
@@ -28,7 +41,6 @@ public class Exit : MonoBehaviour
 
             GameInfo.PlayerIsEntering = false;
 
-            Debug.Log("Händer detta?");
         } else {
             GameInfo.PlayerIsExiting = true;
              
