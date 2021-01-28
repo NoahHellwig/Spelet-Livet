@@ -189,7 +189,7 @@ GameObject:
   - component: {fileID: 4813476504704571826}
   m_Layer: 0
   m_Name: Nyckel 4 balla ur
-  m_TagString: Key 5
+  m_TagString: Key 4
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

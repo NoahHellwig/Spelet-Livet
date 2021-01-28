@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 5583999365237198712}
   - component: {fileID: 6415597738453522033}
   m_Layer: 0
-  m_Name: Nyckel 8 relation (1)
-  m_TagString: Key 8
+  m_Name: Nyckel 9 relation
+  m_TagString: Key 9
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

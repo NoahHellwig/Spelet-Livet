@@ -307,8 +307,8 @@ GameObject:
   - component: {fileID: 1488747729897851672}
   - component: {fileID: 62920500746195473}
   m_Layer: 0
-  m_Name: Nyckel 8 relation (1)
-  m_TagString: Key 8
+  m_Name: Nyckel 12 horder
+  m_TagString: Key 12
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

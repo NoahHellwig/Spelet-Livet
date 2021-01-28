@@ -26,6 +26,11 @@ TagManager:
   - Portal 6
   - A
   - B
+  - Key 9
+  - Key 10
+  - Key 11
+  - Key 12
+  - Key 13
   layers:
   - Default
   - TransparentFX
