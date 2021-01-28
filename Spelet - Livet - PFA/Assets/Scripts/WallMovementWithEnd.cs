@@ -27,13 +27,13 @@ public class WallMovementWithEnd : MonoBehaviour
 
         if (GameInfo.avatarReachedEnd == true && startEndMovement == false)
         {
-            Debug.Log("Death Wall sees Personen/Avatar at the End");
+           // Debug.Log("Death Wall sees Personen/Avatar at the End");
 
             // Calculate distance between script-carrier and lastTarget. 
             float lastDist = Vector3.Distance(lastTarget.position, transform.position);
 
             lastSpeed = lastDist / timeBeforeImpact;
-            Debug.Log("This is the lastSpeed for Death Wall: " + lastSpeed);
+           //  Debug.Log("This is the lastSpeed for Death Wall: " + lastSpeed);
 
             startEndMovement = true;
         }

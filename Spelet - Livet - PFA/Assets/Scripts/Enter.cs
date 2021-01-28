@@ -27,14 +27,14 @@ public class Enter : MonoBehaviour
         //Kollar om spelaren kommer från exit-hållet
         if(GameInfo.PlayerIsExiting == true) {
             // show old world
-            Debug.Log("Is exiting");
+            //Debug.Log("Is exiting");
             //cube.material.color = Color.red;
             GameInfo.PlayerIsExiting = false;
 
         //Om inte, sätts PlayerIsEntering till true, och     
         } else {
             GameInfo.PlayerIsEntering = true;
-            Debug.Log("Is entering"); 
+            //Debug.Log("Is entering"); 
             //cube.material.color = Color.white;
         }      
     }
