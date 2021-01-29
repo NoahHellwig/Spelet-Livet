@@ -33,28 +33,43 @@ public class KeyTextOnScreen : MonoBehaviour
     {
 
             if(GameInfo.keyType == "Key 1") {
-            myKeyStatus = "Key One  ";
+            myKeyStatus = "Cigg";
             }
             else if (GameInfo.keyType == "Key 2") {
-            myKeyStatus = "Key Two";
+            myKeyStatus = "Skolböcker";
             }
             else if (GameInfo.keyType == "Key 3") {
-            myKeyStatus = "Key Three";
+            myKeyStatus = "Jobb";
             }
             else if (GameInfo.keyType == "Key 4") {
-            myKeyStatus = "Key Four";
+            myKeyStatus = "Ballar ur";
             }
             else if (GameInfo.keyType == "Key 5") {
-            myKeyStatus = "Key Five";
+            myKeyStatus = "Universitetet";
             }
             else if (GameInfo.keyType == "Key 6") {
-            myKeyStatus = "Key Six";
+            myKeyStatus = "Gatan";
             }
             else if (GameInfo.keyType == "Key 7") {
-            myKeyStatus = "Key Seven";
+            myKeyStatus = "Karriär";
             }
             else if (GameInfo.keyType == "Key 8") {
-            myKeyStatus = "Key Eight";
+            myKeyStatus = "Resa";
+            }
+            else if (GameInfo.keyType == "Key 9") {
+            myKeyStatus = "Relation";
+            }
+            else if (GameInfo.keyType == "Key 10") {
+            myKeyStatus = "Spirituell ledare";
+            }
+            else if (GameInfo.keyType == "Key 11") {
+            myKeyStatus = "Konstnär";
+            }
+            else if (GameInfo.keyType == "Key 12") {
+            myKeyStatus = "Horder";
+            }
+            else if (GameInfo.keyType == "Key 13") {
+            myKeyStatus = "Villa, Volvo, vovve";
             }
             else {
                 myKeyStatus = "None";
