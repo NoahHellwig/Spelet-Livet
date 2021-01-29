@@ -12,15 +12,20 @@ public class endText2 : MonoBehaviour
        secondDoorText.text = "";
     }
 
+
+
+
+
         void OnTriggerEnter(Collider other)
     {
+
         if (other.tag != "Player") {
             return;
         }
         
         foreach(string quest in avatarMemorySecondPortal.Quests)
-           {
-           secondDoorText.text = ("" + quest);  // Denna visar bara upp det senaste i listan
+           {          
+            secondDoorText.text = ("" + quest); 
 }       
 
     }
