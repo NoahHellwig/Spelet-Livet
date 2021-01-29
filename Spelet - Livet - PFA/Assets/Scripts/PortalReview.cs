@@ -5,17 +5,17 @@ using UnityEngine;
 public class PortalReview : MonoBehaviour
 {
     
-    void OnTriggerEnter(Collider other)
-    {
-        if (other.tag != "Player") {
-            return;
-        }
+//    void OnTriggerEnter(Collider other)
+  //  {
+  //     if (other.tag != "Player") {
+  //          return;
+ //       }
 
-    foreach(string quest in PlayerMemory.Quests)
-        {
-            Debug.Log("" + quest);  
-        }
+ //   foreach(string quest in PlayerMemory.Quests)
+ //       {
+            //Debug.Log("" + quest);  
+  //      }
 
     
-    }
+   // }
 }
