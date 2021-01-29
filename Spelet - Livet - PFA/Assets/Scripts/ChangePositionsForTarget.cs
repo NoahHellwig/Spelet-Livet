@@ -26,6 +26,8 @@ public class ChangePositionsForTarget : MonoBehaviour
     [SerializeField]
     Transform choiceOneDoorBpass;
 
+    ///
+
     // Andra valet positionen 
     [SerializeField]
     Transform choiceTwo;
@@ -46,9 +48,33 @@ public class ChangePositionsForTarget : MonoBehaviour
     [SerializeField]
     Transform choiceTwoDoorBpass;
 
-    // Andra valet positionen 
+    ///
+
+    // Tredje valet positionen 
     [SerializeField]
     Transform choiceThree;
+
+    // Dörr #3 A position, innan gått igenom dörren.  
+    [SerializeField]
+    Transform choiceThreeDoorA;
+
+    // Dörr #3 B position, innan gått igenom dörren.
+    [SerializeField]
+    Transform choiceThreeDoorB;
+
+    // Dörr #3 A position, går igenom dörr #1A.  
+    [SerializeField]
+    Transform choiceThreeDoorApass;
+
+    // Dörr #3 B position, går igenom dörr #1B.
+    [SerializeField]
+    Transform choiceThreeDoorBpass;
+
+    ///
+
+    // Fjärde valet positionen 
+    [SerializeField]
+    Transform choiceFour;
 
     #endregion
 
@@ -65,6 +91,15 @@ public class ChangePositionsForTarget : MonoBehaviour
 
     // Door #2 passed check.
     private bool doorTwoPassed = false;
+
+    // Choice #3  made.
+    private bool choiceThreeMade = false;
+
+    // Door #3 passed check.
+    private bool doorThreePassed = false;
+
+    // Door #4 passed check
+    private bool doorFourPassed = false;
 
     #endregion
 
@@ -167,6 +202,45 @@ public class ChangePositionsForTarget : MonoBehaviour
         }
         #endregion
 
+        #region Target positions for 3rd section
+
+        else if (doorOnePassed == true && doorTwoPassed == true && doorThreePassed == false)
+        {
+            if (choiceThreeMade == false)
+            {
+                if (GameInfo.keyType == "Key 5" && GameInfo.playerCloseToTarget == true && GameInfo.avatarCloseToTarget == true)
+                {
+                    this.transform.position = choiceThreeDoorApass.position;
+                    choiceThreeMade = true;
+                    GameInfo.avatarCloseToTarget = false;
+                }
+
+                else if (GameInfo.keyType == "Key 6" && GameInfo.playerCloseToTarget == true && GameInfo.avatarCloseToTarget == true)
+                {
+                    this.transform.position = choiceThreeDoorBpass.position;
+                    choiceThreeMade = true;
+                    GameInfo.avatarCloseToTarget = false;
+                }
+
+                else if (GameInfo.keyType == "Key 5") // *** BYT NAMN PÅ STRING SOM SÄGER Key 1 TILL NYA NYCKELNAMN SOM I KeyScripts när det ändras där ***
+                { this.transform.position = choiceThreeDoorA.position; }
+
+                else if (GameInfo.keyType == "Key 6") // *** BYT NAMN PÅ STRING SOM SÄGER Key 2 TILL NYA NYCKELNAMN SOM I KeyScripts när det ändras där ***
+                { this.transform.position = choiceThreeDoorB.position; }
+
+                else { this.transform.position = choiceThree.position; }
+
+            }
+
+            else if (choiceThreeMade == true && GameInfo.avatarCloseToTarget == true)
+            {
+                this.transform.position = choiceFour.position;
+                doorThreePassed = true;
+            }
+
+        }
+
+        #endregion
     }
 
 

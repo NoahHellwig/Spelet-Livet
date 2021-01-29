@@ -37,14 +37,14 @@ public class doorControl : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.O))
         {
-            angle = 90;
-            direction = Vector3.up; //Vector3.up ger motsatt håll 
+            angle = 270;
+            direction = Vector3.down; //Vector3.up ger motsatt håll 
         }
 
         if (Input.GetKeyDown(KeyCode.C))
         {
             angle = 0;
-            direction = -Vector3.up; //Vector3.up ger motsatt håll 
+            direction = -Vector3.down; //Vector3.up ger motsatt håll 
         }
     }
 }
