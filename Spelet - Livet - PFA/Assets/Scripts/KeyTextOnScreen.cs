@@ -31,21 +31,21 @@ public class KeyTextOnScreen : MonoBehaviour
 
     void Update()
     {
-
+            
             if(GameInfo.keyType == "Key 1") {
             myKeyStatus = "Cigg";
             }
             else if (GameInfo.keyType == "Key 2") {
-            myKeyStatus = "Skolböcker";
+            myKeyStatus = "Skolbok";
             }
             else if (GameInfo.keyType == "Key 3") {
             myKeyStatus = "Jobb";
             }
             else if (GameInfo.keyType == "Key 4") {
-            myKeyStatus = "Ballar ur";
+            myKeyStatus = "Spåra";
             }
             else if (GameInfo.keyType == "Key 5") {
-            myKeyStatus = "Universitetet";
+            myKeyStatus = "Högskola";
             }
             else if (GameInfo.keyType == "Key 6") {
             myKeyStatus = "Gatan";
@@ -60,7 +60,7 @@ public class KeyTextOnScreen : MonoBehaviour
             myKeyStatus = "Relation";
             }
             else if (GameInfo.keyType == "Key 10") {
-            myKeyStatus = "Spirituell ledare";
+            myKeyStatus = "Guru";
             }
             else if (GameInfo.keyType == "Key 11") {
             myKeyStatus = "Konstnär";
@@ -69,13 +69,14 @@ public class KeyTextOnScreen : MonoBehaviour
             myKeyStatus = "Horder";
             }
             else if (GameInfo.keyType == "Key 13") {
-            myKeyStatus = "Villa, Volvo, vovve";
+            myKeyStatus = "Villaliv";
             }
             else {
                 myKeyStatus = "None";
             }
      
-        
+        Debug.Log(myKeyStatus);
         myKeyText.text = "Current key: " + myKeyStatus;
+        Debug.Log(myKeyText.text);
     }
 }
