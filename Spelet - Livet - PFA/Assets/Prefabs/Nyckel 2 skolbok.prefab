@@ -200,7 +200,7 @@ GameObject:
   - component: {fileID: 1530807686871021687}
   - component: {fileID: 3232800036478536388}
   m_Layer: 0
-  m_Name: Nyckel 2
+  m_Name: Nyckel 2 skolbok
   m_TagString: Key 2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -213,15 +213,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3831902687016494004}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2, z: 0}
+  m_LocalRotation: {x: -0, y: 0.96705866, z: -0, w: 0.25455365}
+  m_LocalPosition: {x: 0.2188373, y: 2, z: 0.05760363}
   m_LocalScale: {x: 1.5, y: 0.7, z: 0.7}
   m_Children:
   - {fileID: 8092192794297839839}
   - {fileID: 1698357053164067344}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 150.50601, z: 0}
 --- !u!33 &1650076464291530918
 MeshFilter:
   m_ObjectHideFlags: 0

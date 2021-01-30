@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2582357432283320459}
   - component: {fileID: 2582357432283320500}
   m_Layer: 0
-  m_Name: Nyckel 1
+  m_Name: Nyckel 1 cigg
   m_TagString: Key 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26,15 +26,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2582357432283320501}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2, z: 0}
+  m_LocalRotation: {x: -0, y: 0.971285, z: -0, w: 0.23791917}
+  m_LocalPosition: {x: 0.112696335, y: 2, z: 0.027605474}
   m_LocalScale: {x: 1.5, y: 0.7, z: 0.7}
   m_Children:
   - {fileID: 396194625811992314}
   - {fileID: 2582357432962831685}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 152.472, z: 0}
 --- !u!33 &2582357432283320458
 MeshFilter:
   m_ObjectHideFlags: 0
