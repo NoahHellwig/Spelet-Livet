@@ -10533,7 +10533,42 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4002698039710111479, guid: 6eee2bad65ba64949bbcba5c83690854,
         type: 3}
+      propertyPath: materialstwo.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4002698039710111479, guid: 6eee2bad65ba64949bbcba5c83690854,
+        type: 3}
       propertyPath: materialstwo.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 929c2df1b80926342b5b0bf436daddcf, type: 2}
+    - target: {fileID: 4002698039710111479, guid: 6eee2bad65ba64949bbcba5c83690854,
+        type: 3}
+      propertyPath: materialstwo.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 35501616d3ac3114f80b3622b919f014, type: 2}
+    - target: {fileID: 4002698039710111479, guid: 6eee2bad65ba64949bbcba5c83690854,
+        type: 3}
+      propertyPath: materialstwo.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: a156eeb226166e0439c1ec76f0836efc, type: 2}
+    - target: {fileID: 4002698039710111479, guid: 6eee2bad65ba64949bbcba5c83690854,
+        type: 3}
+      propertyPath: materialstwo.Array.data[3]
+      value: 
+      objectReference: {fileID: 2100000, guid: e0c6829f2cea2394b8eace6bd43f4502, type: 2}
+    - target: {fileID: 4002698039710111479, guid: 6eee2bad65ba64949bbcba5c83690854,
+        type: 3}
+      propertyPath: materialstwo.Array.data[4]
+      value: 
+      objectReference: {fileID: 2100000, guid: c2c73262617f26846adde2d753c97688, type: 2}
+    - target: {fileID: 4002698039710111479, guid: 6eee2bad65ba64949bbcba5c83690854,
+        type: 3}
+      propertyPath: materialstwo.Array.data[5]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a9a91ce59eb14943949bb20bee5b4d5, type: 2}
+    - target: {fileID: 4002698039710111479, guid: 6eee2bad65ba64949bbcba5c83690854,
+        type: 3}
+      propertyPath: materialstwo.Array.data[6]
       value: 
       objectReference: {fileID: 2100000, guid: 4801cc908553547ff9876af7b6af6bf9, type: 2}
     m_RemovedComponents: []
