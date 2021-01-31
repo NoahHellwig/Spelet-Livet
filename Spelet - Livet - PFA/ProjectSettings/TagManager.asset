@@ -31,6 +31,8 @@ TagManager:
   - Key 11
   - Key 12
   - Key 13
+  - Portal 7
+  - Portal 8
   layers:
   - Default
   - TransparentFX
