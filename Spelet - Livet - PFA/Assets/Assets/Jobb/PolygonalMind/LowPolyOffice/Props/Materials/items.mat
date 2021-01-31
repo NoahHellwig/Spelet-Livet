@@ -109,7 +109,7 @@ Material:
     - _SpecularPower: 20
     - _SrcBlend: 1
     - _SrcBlendOutline: 5
-    - _StencilTest: 4
+    - _StencilTest: 6
     - _TexLod: 0
     - _UVSec: 0
     - _ZSmooth: -3
