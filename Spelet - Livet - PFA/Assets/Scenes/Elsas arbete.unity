@@ -326,15 +326,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: TestCubes 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8693841169249862776, guid: 860a3d152835d47719609bc5c4330773,
+        type: 3}
+      propertyPath: m_TagString
+      value: Level 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8693841169249862777, guid: 860a3d152835d47719609bc5c4330773,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.84
+      value: -1.1
       objectReference: {fileID: 0}
     - target: {fileID: 8693841169249862777, guid: 860a3d152835d47719609bc5c4330773,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.3596792
+      value: 2.3
       objectReference: {fileID: 0}
     - target: {fileID: 8693841169249862777, guid: 860a3d152835d47719609bc5c4330773,
         type: 3}
@@ -538,6 +543,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: TestCubes 4
       objectReference: {fileID: 0}
+    - target: {fileID: 8693841169249862776, guid: 860a3d152835d47719609bc5c4330773,
+        type: 3}
+      propertyPath: m_TagString
+      value: Level 4
+      objectReference: {fileID: 0}
     - target: {fileID: 8693841169249862777, guid: 860a3d152835d47719609bc5c4330773,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -636,6 +646,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TestCubes 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693841169249862776, guid: 860a3d152835d47719609bc5c4330773,
+        type: 3}
+      propertyPath: m_TagString
+      value: Level 5
       objectReference: {fileID: 0}
     - target: {fileID: 8693841169249862777, guid: 860a3d152835d47719609bc5c4330773,
         type: 3}
@@ -800,6 +815,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TestCubes 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693841169249862776, guid: 860a3d152835d47719609bc5c4330773,
+        type: 3}
+      propertyPath: m_TagString
+      value: Level 6
       objectReference: {fileID: 0}
     - target: {fileID: 8693841169249862777, guid: 860a3d152835d47719609bc5c4330773,
         type: 3}
@@ -1363,6 +1383,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: TestCubes 2
       objectReference: {fileID: 0}
+    - target: {fileID: 8693841169249862776, guid: 860a3d152835d47719609bc5c4330773,
+        type: 3}
+      propertyPath: m_TagString
+      value: Level 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8693841169249862777, guid: 860a3d152835d47719609bc5c4330773,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1461,6 +1486,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TestCubes 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693841169249862776, guid: 860a3d152835d47719609bc5c4330773,
+        type: 3}
+      propertyPath: m_TagString
+      value: Level 3
       objectReference: {fileID: 0}
     - target: {fileID: 8693841169249862777, guid: 860a3d152835d47719609bc5c4330773,
         type: 3}
