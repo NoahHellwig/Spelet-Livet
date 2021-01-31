@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: BallaUrGatuMat
-  m_Shader: {fileID: 4800000, guid: cb2d0d568b4874ba295e6606d0c14438, type: 3}
+  m_Name: UniBok2Mat
+  m_Shader: {fileID: 4800000, guid: 0897cfdbccd1640198676a84507dced5, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -74,5 +74,5 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.3773585, g: 0.33285868, b: 0.31505874, a: 1}
+    - _Color: {r: 0.81697583, g: 0.8301887, b: 0.4503382, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
