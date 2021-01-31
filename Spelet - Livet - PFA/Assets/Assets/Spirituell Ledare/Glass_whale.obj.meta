@@ -1,34 +1,9 @@
 fileFormatVersion: 2
-guid: 6b5e2343dedb9c84d87ebc4721351ed7
+guid: 14ec884a821f80146889e89270f788fa
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: FrontColor
-    second: {fileID: 2100000, guid: 3ae9eaa77bf76e940a98a8a29c956227, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Maroon
-    second: {fileID: 2100000, guid: 738d3e64cbdf83a478292fd5ba7ed9c7, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MediumBlue
-    second: {fileID: 2100000, guid: aa19c1ec8337e084cade01b2a92961a7, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Snow
-    second: {fileID: 2100000, guid: c5e66f37253027645a11459dccaf233e, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Yellow
-    second: {fileID: 2100000, guid: 048b7a3d75ed2b74cbce61c4fa9e80ee, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 1
     materialName: 0
