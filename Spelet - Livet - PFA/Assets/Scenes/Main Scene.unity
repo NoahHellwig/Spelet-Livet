@@ -24747,6 +24747,11 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2056785355577425198, guid: c737d6d629d74254bb63ebefb141af44,
+        type: 3}
+      propertyPath: m_StepOffset
+      value: 0.4
+      objectReference: {fileID: 0}
     - target: {fileID: 2056785356748407897, guid: c737d6d629d74254bb63ebefb141af44,
         type: 3}
       propertyPath: m_CullingMask.m_Bits
