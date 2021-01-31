@@ -14,7 +14,7 @@ public class endText4 : MonoBehaviour
 
         void OnTriggerEnter(Collider other)
     {
-        if (other.tag != "Player") {
+        if (other.tag != "Avatar") {
             return;
         }
         
