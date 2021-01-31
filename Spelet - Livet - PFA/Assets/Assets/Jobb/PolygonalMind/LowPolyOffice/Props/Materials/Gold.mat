@@ -148,7 +148,7 @@ Material:
     - _SpecularHighlights: 1
     - _SpecularPower: 20
     - _SrcBlend: 1
-    - _StencilTest: 4
+    - _StencilTest: 6
     - _TexLod: 5
     - _UVSec: 0
     - _UseAlbedo: 1
