@@ -58,7 +58,7 @@ Shader "Custom/Resa Standard Filter"
         LOD 300
 
         Stencil{
-            Ref 7
+            Ref 8
             Comp [_StencilTest]
         }
 
@@ -232,7 +232,7 @@ Shader "Custom/Resa Standard Filter"
         LOD 150
 
         Stencil{
-            Ref 7
+            Ref 8
             Comp [_StencilTest]
         }
 
