@@ -113,7 +113,11 @@ public class Exit : MonoBehaviour
 
         Debug.Log("exit script" + ph.History);
         //Använd string med spelarens historik
-        if (ph.History == "A"){  //cigg
+
+    //-----OMRÅDE 1
+
+        //CIGG
+        if (ph.History == "A"){ 
         
             
             foreach(GameObject go in levelTwo)
@@ -137,7 +141,9 @@ public class Exit : MonoBehaviour
             //Instantiate(jobbNyckel, placementKeys[3-1].position, placementKeys[3-1].rotation);
             
         }
-        else if (ph.History == "B"){ //skola
+
+        //SKOLA
+        else if (ph.History == "B"){ 
             foreach(GameObject go in levelOne)
             {
                 go.SetActive(false);
@@ -157,7 +163,12 @@ public class Exit : MonoBehaviour
             //Instantiate(uniNyckel, placementKeys[5-1].position, placementKeys[5-1].rotation);
             //Instantiate(jobbTvåNyckel, placementKeys[14-1].position, placementKeys[14-1].rotation);
         }
-        else if (ph.History == "AA"){ //balla ur
+
+        //------OMRÅDE 2
+
+        //BALLA UR
+        else if (ph.History == "AB"){ 
+            Debug.Log("balla ur händer");
             foreach(GameObject go in levelThree)
             {
                 go.SetActive(false);
@@ -182,7 +193,9 @@ public class Exit : MonoBehaviour
             //Instantiate(resaNyckel, placementKeys[8-1].position, placementKeys[8-1].rotation);
             
         }
-         else if (ph.History == "AB" || ph.History == "BA"){ //jobb
+
+        //JOBB
+         else if (ph.History == "AA" || ph.History == "BB"){ 
             foreach(GameObject go in levelFour)
             {
                 go.SetActive(false);
@@ -207,7 +220,9 @@ public class Exit : MonoBehaviour
             //Instantiate(relationNyckel, placementKeys[9-1].position, placementKeys[9-1].rotation);
 
         }
-        else if (ph.History == "BB"){ //universitet
+
+        //UNI
+        else if (ph.History == "BA"){
             foreach(GameObject go in levelFour)
             {
                 go.SetActive(false);
@@ -231,7 +246,11 @@ public class Exit : MonoBehaviour
             //Instantiate(karriärNyckel, placementKeys[7-1].position, placementKeys[7-1].rotation);
             //Instantiate(relationNyckel, placementKeys[9-1].position, placementKeys[9-1].rotation);
         }
-        else if (ph.History == "AAA"){ //gatan
+
+        //-------OMRÅDE 3
+
+        //GATAN
+        else if (ph.History == "ABA"){ 
             foreach(GameObject go in levelEight)
             {
                 go.SetActive(false);
@@ -260,7 +279,10 @@ public class Exit : MonoBehaviour
             //Instantiate(horderNyckel, placementKeys[12-1].position, placementKeys[12-1].rotation);
             //Instantiate(guruNyckel, placementKeys[10-1].position, placementKeys[10-1].rotation);
         }
-        else if (ph.History == "AAB"){ //resa
+
+
+        //RESA
+        else if (ph.History == "ABB"){ 
             foreach(GameObject go in levelSix)
             {
                 go.SetActive(false);
@@ -289,7 +311,9 @@ public class Exit : MonoBehaviour
             //Instantiate(guruNyckel, placementKeys[10-1].position, placementKeys[10-1].rotation);
             //Instantiate(konstnärNyckel, placementKeys[11-1].position, placementKeys[11-1].rotation);
         }
-        else if (ph.History == "ABA" || ph.History == "BAA" || ph.History == "BBA"){ //karriär
+
+        //KARRIÄR
+        else if (ph.History == "AAA" || ph.History == "BAA" || ph.History == "BBA"){ 
             foreach(GameObject go in levelSix)
             {
                 go.SetActive(false);
@@ -318,7 +342,9 @@ public class Exit : MonoBehaviour
             //Instantiate(guruNyckel, placementKeys[10-1].position, placementKeys[10-1].rotation);
             //Instantiate(vvvNyckel, placementKeys[13-1].position, placementKeys[13-1].rotation);
         }
-        else if (ph.History == "ABB" || ph.History == "BAB" || ph.History == "BBB"){ //relation
+
+        //RELATION
+        else if (ph.History == "AAB" || ph.History == "BAB" || ph.History == "BBB"){ 
             foreach(GameObject go in levelSix)
             {
                 go.SetActive(false);
@@ -347,7 +373,11 @@ public class Exit : MonoBehaviour
             //Instantiate(konstnärTvåNyckel, placementKeys[15-1].position, placementKeys[15-1].rotation);
             //Instantiate(vvvNyckel, placementKeys[13-1].position, placementKeys[13-1].rotation);
         }
-        else if (ph.History == "AAAA"){ //horder
+
+        //------OMRÅDE 4
+
+        //HORDER
+        else if (ph.History == "ABAB"){ 
             foreach(GameObject go in levelTen)
             {
                 go.SetActive(false);
@@ -364,7 +394,9 @@ public class Exit : MonoBehaviour
                 //Debug.Log("Deaktiverar vvv");
             }
         }
-        else if (ph.History == "AAAB" || ph.History == "AABA" || ph.History == "ABAA" || ph.History == "BAAA" || ph.History == "BBAA"){ //guru
+
+        //GURU
+        else if (ph.History == "ABAA" || ph.History == "AAAA" || ph.History == "BBAA" || ph.History == "ABBA" || ph.History == "BAAA"){ 
             foreach(GameObject go in levelTwelve)
             {
                 go.SetActive(false);
@@ -380,7 +412,9 @@ public class Exit : MonoBehaviour
                 go.SetActive(false);
                 //Debug.Log("Deaktiverar vvv");
             }
-        } else if (ph.History == "AABB" || ph.History == "ABBA" || ph.History == "BABA" || ph.History == "BBBA"){ //konstnär
+
+            //KONSTNÄR 
+        } else if (ph.History == "AABB" || ph.History == "ABBA" || ph.History == "BABA" || ph.History == "BBBA"){ 
             foreach(GameObject go in levelTwelve)
             {
                 go.SetActive(false);
@@ -396,7 +430,9 @@ public class Exit : MonoBehaviour
                 go.SetActive(false);
                 //Debug.Log("Deaktiverar vvv");
             }
-        } else if (ph.History == "ABAB" || ph.History == "BAAB" || ph.History == "BBAB" || ph.History == "ABBB" || ph.History == "BABB" || ph.History == "BBBB"){ //vvv
+
+            //VVV
+        } else if (ph.History == "BABB" || ph.History == "BBBB" || ph.History == "AABB" || ph.History == "AAAB" || ph.History == "BBAB" || ph.History == "BAAB"){ 
             foreach(GameObject go in levelTwelve)
             {
                 go.SetActive(false);
