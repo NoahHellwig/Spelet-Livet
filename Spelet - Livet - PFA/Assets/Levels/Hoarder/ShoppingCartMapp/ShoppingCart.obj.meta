@@ -3,7 +3,12 @@ guid: 6b05adba6f3afeb40aace31348b9349a
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shopping_CartMat
+    second: {fileID: 2100000, guid: e096dafc808ef91449a2a275590845b4, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
