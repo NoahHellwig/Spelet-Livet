@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: PortalWindow5
-  m_Shader: {fileID: 4800000, guid: d23492866912347d799732655e41fbb6, type: 3}
+  m_Name: PortalWindow7
+  m_Shader: {fileID: 4800000, guid: 724f251c2097b4984a3f647a0faf9b8d, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
