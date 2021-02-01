@@ -329,7 +329,7 @@ public class ChangePositionsForTarget : MonoBehaviour
                     GameInfo.avatarCloseToTarget = false;
                 }
 
-                if (GameInfo.keyType == "Key 11" && GameInfo.playerCloseToTarget == true && GameInfo.avatarCloseToTarget == true)
+                else if (GameInfo.keyType == "Key 11" && GameInfo.playerCloseToTarget == true && GameInfo.avatarCloseToTarget == true)
                 {
                     this.transform.position = choiceFourDoorApass.position;
                     choiceFourMade = true;
