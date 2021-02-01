@@ -98,56 +98,56 @@ public class Exit : MonoBehaviour
             foreach(GameObject go in levelOne)
             {
                 go.SetActive(false);
-                Debug.Log("Deaktiverar cigg");
+                //Debug.Log("Deaktiverar cigg");
             }
             foreach(GameObject go in ballaUrNyckel)
             {
                 go.SetActive(false);
-                Debug.Log("Deaktiverar ballaUrNyckel");
+                //Debug.Log("Deaktiverar ballaUrNyckel");
             }
         }
         else if (ph.History == "AA"){ //balla ur
             foreach(GameObject go in levelThree)
             {
                 go.SetActive(false);
-                Debug.Log("Deaktiverar jobb");
+                //Debug.Log("Deaktiverar jobb");
             }
             foreach(GameObject go in levelFive) 
             {
                 go.SetActive(false);
-                Debug.Log("Deaktiverar universitet");
+                //Debug.Log("Deaktiverar universitet");
             }
             foreach(GameObject go in karriärNyckel)
             {
                 go.SetActive(false);
-                Debug.Log("Deaktiverar karriärNyckel");
+                //Debug.Log("Deaktiverar karriärNyckel");
             }
             foreach(GameObject go in relationNyckel)
             {
                 go.SetActive(false);
-                Debug.Log("Deaktiverar relationsNyckel");
+                //Debug.Log("Deaktiverar relationsNyckel");
             }
         }
          else if (ph.History == "AB" || ph.History == "BA"){ //jobb
             foreach(GameObject go in levelFour)
             {
                 go.SetActive(false);
-                Debug.Log("Deaktiverar balla ur");
+                //Debug.Log("Deaktiverar balla ur");
             }
             foreach(GameObject go in levelFive)
             {
                 go.SetActive(false);
-                Debug.Log("Deaktiverar universitet");
+                //Debug.Log("Deaktiverar universitet");
             }
             foreach(GameObject go in resaNyckel)
             {
                 go.SetActive(false);
-                Debug.Log("Deaktiverar resaNyckel");
+                //Debug.Log("Deaktiverar resaNyckel");
             }
             foreach(GameObject go in gatanNyckel)
             {
                 go.SetActive(false);
-                Debug.Log("Deaktiverar gatanNyckel");
+                //Debug.Log("Deaktiverar gatanNyckel");
             }
 
         }
@@ -155,196 +155,196 @@ public class Exit : MonoBehaviour
             foreach(GameObject go in levelFour)
             {
                 go.SetActive(false);
-                Debug.Log("Deaktiverar balla ur");
+                //Debug.Log("Deaktiverar balla ur");
             }
             foreach(GameObject go in levelThree)
             {
                 go.SetActive(false);
-                Debug.Log("Deaktiverar jobb");
+                //Debug.Log("Deaktiverar jobb");
             }
             foreach(GameObject go in resaNyckel)
             {
                 go.SetActive(false);
-                Debug.Log("Deaktiverar resaNyckel");
+                //Debug.Log("Deaktiverar resaNyckel");
             }
             foreach(GameObject go in gatanNyckel)
             {
                 go.SetActive(false);
-                Debug.Log("Deaktiverar gatanNyckel");
+                //Debug.Log("Deaktiverar gatanNyckel");
             }
         }
         else if (ph.History == "AAA"){ //gatan
             foreach(GameObject go in levelEight)
             {
                 go.SetActive(false);
-                Debug.Log("Deaktiverar resa");
+                //Debug.Log("Deaktiverar resa");
             }
             foreach(GameObject go in levelSeven)
             {
                 go.SetActive(false);
-                Debug.Log("Deaktiverar karriär");
+                //Debug.Log("Deaktiverar karriär");
             }
             foreach(GameObject go in levelNine)
             {
                 go.SetActive(false);
-                Debug.Log("Deaktiverar relation");
+                //Debug.Log("Deaktiverar relation");
             }
             foreach(GameObject go in konstnärNyckel)
             {
                 go.SetActive(false);
-                Debug.Log("Deaktiverar konstnärNyckel");
+                //Debug.Log("Deaktiverar konstnärNyckel");
             }
             foreach(GameObject go in vvvNyckel)
             {
                 go.SetActive(false);
-                Debug.Log("Deaktiverar vvvNyckel");
+                //Debug.Log("Deaktiverar vvvNyckel");
             }
         }
         else if (ph.History == "AAB"){ //resa
             foreach(GameObject go in levelSix)
             {
                 go.SetActive(false);
-                Debug.Log("Deaktiverar gatan");
+                //Debug.Log("Deaktiverar gatan");
             }
             foreach(GameObject go in levelSeven)
             {
                 go.SetActive(false);
-                Debug.Log("Deaktiverar karriär");
+                //Debug.Log("Deaktiverar karriär");
             }
             foreach(GameObject go in levelNine)
             {
                 go.SetActive(false);
-                Debug.Log("Deaktiverar relation");
+                //Debug.Log("Deaktiverar relation");
             }
             foreach(GameObject go in horderNyckel)
             {
                 go.SetActive(false);
-                Debug.Log("Deaktiverar horderNyckel");
+                //Debug.Log("Deaktiverar horderNyckel");
             }
             foreach(GameObject go in vvvNyckel)
             {
                 go.SetActive(false);
-                Debug.Log("Deaktiverar vvvNyckel");
+                //Debug.Log("Deaktiverar vvvNyckel");
             }
         }
         else if (ph.History == "ABA" || ph.History == "BAA" || ph.History == "BBA"){ //karriär
             foreach(GameObject go in levelSix)
             {
                 go.SetActive(false);
-                Debug.Log("Deaktiverar gatan");
+                //Debug.Log("Deaktiverar gatan");
             }
             foreach(GameObject go in levelEight)
             {
                 go.SetActive(false);
-                Debug.Log("Deaktiverar resa");
+                //Debug.Log("Deaktiverar resa");
             }
             foreach(GameObject go in levelNine)
             {
                 go.SetActive(false);
-                Debug.Log("Deaktiverar relation");
+                //Debug.Log("Deaktiverar relation");
             }
             foreach(GameObject go in konstnärNyckel)
             {
                 go.SetActive(false);
-                Debug.Log("Deaktiverar konstnärNyckel");
+                //Debug.Log("Deaktiverar konstnärNyckel");
             }
             foreach(GameObject go in horderNyckel)
             {
                 go.SetActive(false);
-                Debug.Log("Deaktiverar horderNyckel");
+                //Debug.Log("Deaktiverar horderNyckel");
             }
         }
         else if (ph.History == "ABB" || ph.History == "BAB" || ph.History == "BBB"){ //relation
             foreach(GameObject go in levelSix)
             {
                 go.SetActive(false);
-                Debug.Log("Deaktiverar gatan");
+                //Debug.Log("Deaktiverar gatan");
             }
             foreach(GameObject go in levelSeven)
             {
                 go.SetActive(false);
-                Debug.Log("Deaktiverar karriär");
+                //Debug.Log("Deaktiverar karriär");
             }
             foreach(GameObject go in levelEight)
             {
                 go.SetActive(false);
-                Debug.Log("Deaktiverar resa");
+                //Debug.Log("Deaktiverar resa");
             }
             foreach(GameObject go in guruNyckel)
             {
                 go.SetActive(false);
-                Debug.Log("Deaktiverar guruNyckel");
+                //Debug.Log("Deaktiverar guruNyckel");
             }
             foreach(GameObject go in horderNyckel)
             {
                 go.SetActive(false);
-                Debug.Log("Deaktiverar horderNyckel");
+                //Debug.Log("Deaktiverar horderNyckel");
             }
         }
         else if (ph.History == "AAAA"){ //horder
             foreach(GameObject go in levelTen)
             {
                 go.SetActive(false);
-                Debug.Log("Deaktiverar guru");
+                //Debug.Log("Deaktiverar guru");
             }
             foreach(GameObject go in levelEleven)
             {
                 go.SetActive(false);
-                Debug.Log("Deaktiverar konstnär");
+                //Debug.Log("Deaktiverar konstnär");
             }
             foreach(GameObject go in levelThirteen)
             {
                 go.SetActive(false);
-                Debug.Log("Deaktiverar vvv");
+                //Debug.Log("Deaktiverar vvv");
             }
         }
         else if (ph.History == "AAAB" || ph.History == "AABA" || ph.History == "ABAA" || ph.History == "BAAA" || ph.History == "BBAA"){ //guru
             foreach(GameObject go in levelTwelve)
             {
                 go.SetActive(false);
-                Debug.Log("Deaktiverar horder");
+                //Debug.Log("Deaktiverar horder");
             }
             foreach(GameObject go in levelEleven)
             {
                 go.SetActive(false);
-                Debug.Log("Deaktiverar konstnär");
+                //Debug.Log("Deaktiverar konstnär");
             }
             foreach(GameObject go in levelThirteen)
             {
                 go.SetActive(false);
-                Debug.Log("Deaktiverar vvv");
+                //Debug.Log("Deaktiverar vvv");
             }
         } else if (ph.History == "AABB" || ph.History == "ABBA" || ph.History == "BABA" || ph.History == "BBBA"){ //konstnär
             foreach(GameObject go in levelTwelve)
             {
                 go.SetActive(false);
-                Debug.Log("Deaktiverar horder");
+                //Debug.Log("Deaktiverar horder");
             }
             foreach(GameObject go in levelTen)
             {
                 go.SetActive(false);
-                Debug.Log("Deaktiverar guru");
+                //Debug.Log("Deaktiverar guru");
             }
             foreach(GameObject go in levelThirteen)
             {
                 go.SetActive(false);
-                Debug.Log("Deaktiverar vvv");
+                //Debug.Log("Deaktiverar vvv");
             }
         } else if (ph.History == "ABAB" || ph.History == "BAAB" || ph.History == "BBAB" || ph.History == "ABBB" || ph.History == "BABB" || ph.History == "BBBB"){ //vvv
             foreach(GameObject go in levelTwelve)
             {
                 go.SetActive(false);
-                Debug.Log("Deaktiverar horder");
+                //Debug.Log("Deaktiverar horder");
             }
             foreach(GameObject go in levelEleven)
             {
                 go.SetActive(false);
-                Debug.Log("Deaktiverar konstnär");
+                //Debug.Log("Deaktiverar konstnär");
             }
             foreach(GameObject go in levelTen)
             {
                 go.SetActive(false);
-                Debug.Log("Deaktiverar banor: guru");
+                //Debug.Log("Deaktiverar banor: guru");
             }
         }
         if(GameInfo.PlayerIsEntering == true) {
