@@ -41,7 +41,7 @@ public class KeyTextOnScreen : MonoBehaviour
             else if (GameInfo.keyType == "Key 3") {
             myKeyStatus = "Jobb";
             }
-            else if (GameInfo.keyType == "Key 3 nr 2") {
+            else if (GameInfo.keyType == "Key 14") {
             myKeyStatus = "Jobb";
             }
             else if (GameInfo.keyType == "Key 4") {
@@ -68,7 +68,7 @@ public class KeyTextOnScreen : MonoBehaviour
             else if (GameInfo.keyType == "Key 11") {
             myKeyStatus = "Konstnär";
             }
-            else if (GameInfo.keyType == "Key 11 nr 2") {
+            else if (GameInfo.keyType == "Key 15") {
             myKeyStatus = "Konstnär";
             }
             else if (GameInfo.keyType == "Key 12") {
@@ -81,8 +81,8 @@ public class KeyTextOnScreen : MonoBehaviour
                 myKeyStatus = "None";
             }
      
-        Debug.Log(myKeyStatus);
+        //Debug.Log(myKeyStatus);
         myKeyText.text = "Current key: " + myKeyStatus;
-        Debug.Log(myKeyText.text);
+        //Debug.Log(myKeyText.text);
     }
 }

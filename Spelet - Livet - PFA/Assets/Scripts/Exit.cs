@@ -23,9 +23,12 @@ public class Exit : MonoBehaviour
     public GameObject[] levelTwelve;
     public GameObject[] levelThirteen;
     public GameObject[] levelFourteen;
+
+    
     public GameObject[] ciggNyckel;
     public GameObject[] skolaNyckel;
     public GameObject[] jobbNyckel;
+    public GameObject[] jobbNyckelTvå;
     public GameObject[] ballaUrNyckel;
     public GameObject[] uniNyckel;
     public GameObject[] gatanNyckel;
@@ -34,9 +37,28 @@ public class Exit : MonoBehaviour
     public GameObject[] relationNyckel;
     public GameObject[] guruNyckel;
     public GameObject[] konstnärNyckel;
+    public GameObject[] konstnärNyckelTvå;
     public GameObject[] horderNyckel;
     public GameObject[] vvvNyckel;
+/*
+    public GameObject ciggNyckel;
+    public GameObject skolaNyckel;
+    public GameObject jobbNyckel;
+    public GameObject jobbTvåNyckel;
+    public GameObject ballaUrNyckel;
+    public GameObject uniNyckel;
+    public GameObject gatanNyckel;
+    public GameObject karriärNyckel;
+    public GameObject resaNyckel;
+    public GameObject relationNyckel;
+    public GameObject guruNyckel;
+    public GameObject konstnärNyckel;
+    public GameObject konstnärTvåNyckel;
+    public GameObject horderNyckel;
+    public GameObject vvvNyckel;
 
+    public Transform[] placementKeys;
+*/
     void Start() {
 
         //Hämta skriptet Playerhistory från spelaren
@@ -58,10 +80,11 @@ public class Exit : MonoBehaviour
         levelEleven = GameObject.FindGameObjectsWithTag("Level 11");
         levelTwelve = GameObject.FindGameObjectsWithTag("Level 12");
         levelThirteen = GameObject.FindGameObjectsWithTag("Level 13");
-
+        
         ciggNyckel = GameObject.FindGameObjectsWithTag("Key 1");
         skolaNyckel = GameObject.FindGameObjectsWithTag("Key 2");
         jobbNyckel = GameObject.FindGameObjectsWithTag("Key 3");
+        jobbNyckelTvå = GameObject.FindGameObjectsWithTag("Key 14");
         ballaUrNyckel = GameObject.FindGameObjectsWithTag("Key 4");
         uniNyckel = GameObject.FindGameObjectsWithTag("Key 5");
         gatanNyckel = GameObject.FindGameObjectsWithTag("Key 6");
@@ -70,19 +93,29 @@ public class Exit : MonoBehaviour
         relationNyckel = GameObject.FindGameObjectsWithTag("Key 9");
         guruNyckel = GameObject.FindGameObjectsWithTag("Key 10");
         konstnärNyckel = GameObject.FindGameObjectsWithTag("Key 11");
+        konstnärNyckelTvå = GameObject.FindGameObjectsWithTag("Key 15");
         horderNyckel = GameObject.FindGameObjectsWithTag("Key 12");
         vvvNyckel = GameObject.FindGameObjectsWithTag("Key 13");
+        
+
+        
     }
 
     void OnTriggerEnter(Collider other)
     {
+
+        
         GameInfo.PlayerIsExiting = false;
 
         if (other.tag != "Player") {
             return;
         }
+
+        Debug.Log("exit script" + ph.History);
         //Använd string med spelarens historik
         if (ph.History == "A"){  //cigg
+        
+            
             foreach(GameObject go in levelTwo)
             {
                 go.SetActive(false);
@@ -91,8 +124,18 @@ public class Exit : MonoBehaviour
             foreach(GameObject go in uniNyckel)
             {
                 go.SetActive(false);
+                //go.transform.Translate(0,-50,0);
                 Debug.Log("Deaktiverar uniNyckel");
             }
+            foreach(GameObject go in jobbNyckelTvå)
+            {
+                go.SetActive(false);
+                //go.transform.Translate(0,-50,0);
+                Debug.Log("Deaktiverar jobbNyckelTvå");
+            }
+            //Instantiate(ballaUrNyckel, placementKeys[4-1].position, placementKeys[4-1].rotation);
+            //Instantiate(jobbNyckel, placementKeys[3-1].position, placementKeys[3-1].rotation);
+            
         }
         else if (ph.History == "B"){ //skola
             foreach(GameObject go in levelOne)
@@ -105,6 +148,14 @@ public class Exit : MonoBehaviour
                 go.SetActive(false);
                 //Debug.Log("Deaktiverar ballaUrNyckel");
             }
+            foreach(GameObject go in jobbNyckel)
+            {
+                go.SetActive(false);
+                //go.transform.Translate(0,-50,0);
+                Debug.Log("Deaktiverar jobbNyckelEtt");
+            }
+            //Instantiate(uniNyckel, placementKeys[5-1].position, placementKeys[5-1].rotation);
+            //Instantiate(jobbTvåNyckel, placementKeys[14-1].position, placementKeys[14-1].rotation);
         }
         else if (ph.History == "AA"){ //balla ur
             foreach(GameObject go in levelThree)
@@ -127,6 +178,9 @@ public class Exit : MonoBehaviour
                 go.SetActive(false);
                 //Debug.Log("Deaktiverar relationsNyckel");
             }
+            //Instantiate(gatanNyckel, placementKeys[6-1].position, placementKeys[6-1].rotation);
+            //Instantiate(resaNyckel, placementKeys[8-1].position, placementKeys[8-1].rotation);
+            
         }
          else if (ph.History == "AB" || ph.History == "BA"){ //jobb
             foreach(GameObject go in levelFour)
@@ -149,6 +203,8 @@ public class Exit : MonoBehaviour
                 go.SetActive(false);
                 //Debug.Log("Deaktiverar gatanNyckel");
             }
+            //Instantiate(karriärNyckel, placementKeys[7-1].position, placementKeys[7-1].rotation);
+            //Instantiate(relationNyckel, placementKeys[9-1].position, placementKeys[9-1].rotation);
 
         }
         else if (ph.History == "BB"){ //universitet
@@ -172,6 +228,8 @@ public class Exit : MonoBehaviour
                 go.SetActive(false);
                 //Debug.Log("Deaktiverar gatanNyckel");
             }
+            //Instantiate(karriärNyckel, placementKeys[7-1].position, placementKeys[7-1].rotation);
+            //Instantiate(relationNyckel, placementKeys[9-1].position, placementKeys[9-1].rotation);
         }
         else if (ph.History == "AAA"){ //gatan
             foreach(GameObject go in levelEight)
@@ -199,6 +257,8 @@ public class Exit : MonoBehaviour
                 go.SetActive(false);
                 //Debug.Log("Deaktiverar vvvNyckel");
             }
+            //Instantiate(horderNyckel, placementKeys[12-1].position, placementKeys[12-1].rotation);
+            //Instantiate(guruNyckel, placementKeys[10-1].position, placementKeys[10-1].rotation);
         }
         else if (ph.History == "AAB"){ //resa
             foreach(GameObject go in levelSix)
@@ -226,6 +286,8 @@ public class Exit : MonoBehaviour
                 go.SetActive(false);
                 //Debug.Log("Deaktiverar vvvNyckel");
             }
+            //Instantiate(guruNyckel, placementKeys[10-1].position, placementKeys[10-1].rotation);
+            //Instantiate(konstnärNyckel, placementKeys[11-1].position, placementKeys[11-1].rotation);
         }
         else if (ph.History == "ABA" || ph.History == "BAA" || ph.History == "BBA"){ //karriär
             foreach(GameObject go in levelSix)
@@ -253,6 +315,8 @@ public class Exit : MonoBehaviour
                 go.SetActive(false);
                 //Debug.Log("Deaktiverar horderNyckel");
             }
+            //Instantiate(guruNyckel, placementKeys[10-1].position, placementKeys[10-1].rotation);
+            //Instantiate(vvvNyckel, placementKeys[13-1].position, placementKeys[13-1].rotation);
         }
         else if (ph.History == "ABB" || ph.History == "BAB" || ph.History == "BBB"){ //relation
             foreach(GameObject go in levelSix)
@@ -280,6 +344,8 @@ public class Exit : MonoBehaviour
                 go.SetActive(false);
                 //Debug.Log("Deaktiverar horderNyckel");
             }
+            //Instantiate(konstnärTvåNyckel, placementKeys[15-1].position, placementKeys[15-1].rotation);
+            //Instantiate(vvvNyckel, placementKeys[13-1].position, placementKeys[13-1].rotation);
         }
         else if (ph.History == "AAAA"){ //horder
             foreach(GameObject go in levelTen)
@@ -347,6 +413,7 @@ public class Exit : MonoBehaviour
                 //Debug.Log("Deaktiverar banor: guru");
             }
         }
+
         if(GameInfo.PlayerIsEntering == true) {
             //cube.material.color = Color.black;
             foreach (var mat in materialstwo)
