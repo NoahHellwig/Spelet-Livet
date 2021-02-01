@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Low_Poly_Mat
-  m_Shader: {fileID: 4800000, guid: eb4c7543e5d2f47409838e73c641728a, type: 3}
+  m_Shader: {fileID: 4800000, guid: 229b90e092a4244a4b67b08f9f50943b, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
