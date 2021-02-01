@@ -16509,6 +16509,7 @@ GameObject:
   - component: {fileID: 832961160}
   - component: {fileID: 832961159}
   - component: {fileID: 832961158}
+  - component: {fileID: 832961165}
   m_Layer: 0
   m_Name: End Text Trigger
   m_TagString: Untagged
@@ -16642,6 +16643,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 832961156}
   m_Mesh: {fileID: 0}
+--- !u!114 &832961165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832961156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9547d358f40c349aabc71d14614b30b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fifthDoorText: {fileID: 1812108287}
 --- !u!1 &835237925
 GameObject:
   m_ObjectHideFlags: 0
