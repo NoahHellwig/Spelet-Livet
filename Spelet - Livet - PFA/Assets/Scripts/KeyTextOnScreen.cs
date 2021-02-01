@@ -41,6 +41,9 @@ public class KeyTextOnScreen : MonoBehaviour
             else if (GameInfo.keyType == "Key 3") {
             myKeyStatus = "Jobb";
             }
+            else if (GameInfo.keyType == "Key 3 nr 2") {
+            myKeyStatus = "Jobb";
+            }
             else if (GameInfo.keyType == "Key 4") {
             myKeyStatus = "Spåra";
             }
@@ -63,6 +66,9 @@ public class KeyTextOnScreen : MonoBehaviour
             myKeyStatus = "Guru";
             }
             else if (GameInfo.keyType == "Key 11") {
+            myKeyStatus = "Konstnär";
+            }
+            else if (GameInfo.keyType == "Key 11 nr 2") {
             myKeyStatus = "Konstnär";
             }
             else if (GameInfo.keyType == "Key 12") {
