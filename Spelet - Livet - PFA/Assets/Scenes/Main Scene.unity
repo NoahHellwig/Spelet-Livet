@@ -13325,6 +13325,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 356970547}
     m_Modifications:
+    - target: {fileID: 400000, guid: 5e7c9835ef504ec4b946488ea4724292, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 24997ca913afc8542b8c5d81f70e2a1b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13420,10 +13424,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 600c8035376fcb6448ba8a81c979400a, type: 2}
-    - target: {fileID: 400000, guid: 5e7c9835ef504ec4b946488ea4724292, type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e7c9835ef504ec4b946488ea4724292, type: 3}
 --- !u!4 &672830251 stripped
@@ -17284,7 +17284,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1907636327}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -29089,6 +29089,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 356970547}
     m_Modifications:
+    - target: {fileID: 400000, guid: 8bdb4a45ed93f8b4bbd8b5938bafbc81, type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 31967541d7a295f47a7d417b71cf702f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -29169,10 +29173,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 79e78078ac6101745a7288daed5ce592, type: 2}
-    - target: {fileID: 400000, guid: 8bdb4a45ed93f8b4bbd8b5938bafbc81, type: 3}
-      propertyPath: m_RootOrder
-      value: 14
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bdb4a45ed93f8b4bbd8b5938bafbc81, type: 3}
 --- !u!4 &1642857955 stripped
@@ -31920,6 +31920,84 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1809761592}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1812108285
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1812108286}
+  - component: {fileID: 1812108288}
+  - component: {fileID: 1812108287}
+  m_Layer: 5
+  m_Name: fifthDoorText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1812108286
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1812108285}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1907636327}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -140.89996}
+  m_SizeDelta: {x: 1100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1812108287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1812108285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.990566, g: 0.990566, b: 0.990566, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: f9b31c8eee46e40188f8ff97a4ebfcd0, type: 3}
+    m_FontSize: 23
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 42
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: New Text
+--- !u!222 &1812108288
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1812108285}
+  m_CullTransparentMesh: 0
 --- !u!1001 &1813375437
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33721,6 +33799,7 @@ RectTransform:
   - {fileID: 1316724824}
   - {fileID: 1608840646}
   - {fileID: 1212026078}
+  - {fileID: 1812108286}
   - {fileID: 875714856}
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -36768,7 +36847,7 @@ GameObject:
   - component: {fileID: 2075211328}
   - component: {fileID: 2075211327}
   m_Layer: 0
-  m_Name: Door Hoarder (1)
+  m_Name: Door Sista biten
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36813,10 +36892,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f847f89952e7a49929c99e05332fa845, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PortalName: You found something you liked. You picked it up. You found another
-    thing. You kept it. You realized how much you enjoyed material things, until
-    you had so much stuff you had to keep it in a shopping cart, not realizing the
-    freedom you enjoyed before was gone.
+  PortalName: The end.
 --- !u!23 &2075211329
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -41710,6 +41786,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Nyckel 3 jobb
       objectReference: {fileID: 0}
+    - target: {fileID: 4482581891014188966, guid: 5ac7a4ee7168f4cd681eb95d1288f4c3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Key 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6402905629730283066, guid: 5ac7a4ee7168f4cd681eb95d1288f4c3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -42737,6 +42818,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: "Nyckel 11 konstn\xE4r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8330672821263943156, guid: 8ce154d2d746b43b2b73eebc8cc75c21,
+        type: 3}
+      propertyPath: m_TagString
+      value: Key 11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ce154d2d746b43b2b73eebc8cc75c21, type: 3}
