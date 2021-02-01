@@ -956,7 +956,7 @@ PrefabInstance:
     - target: {fileID: 4002698037893516141, guid: 6eee2bad65ba64949bbcba5c83690854,
         type: 3}
       propertyPath: m_TagString
-      value: Level 12
+      value: B
       objectReference: {fileID: 0}
     - target: {fileID: 4002698039710111467, guid: 6eee2bad65ba64949bbcba5c83690854,
         type: 3}
@@ -1402,7 +1402,7 @@ PrefabInstance:
     - target: {fileID: 4002698037893516141, guid: 6eee2bad65ba64949bbcba5c83690854,
         type: 3}
       propertyPath: m_TagString
-      value: Level 11
+      value: A
       objectReference: {fileID: 0}
     - target: {fileID: 4002698039710111467, guid: 6eee2bad65ba64949bbcba5c83690854,
         type: 3}
@@ -5504,7 +5504,7 @@ PrefabInstance:
     - target: {fileID: 4002698037893516141, guid: 6eee2bad65ba64949bbcba5c83690854,
         type: 3}
       propertyPath: m_TagString
-      value: Portal 7
+      value: A
       objectReference: {fileID: 0}
     - target: {fileID: 4002698039710111467, guid: 6eee2bad65ba64949bbcba5c83690854,
         type: 3}
@@ -6154,7 +6154,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &356970547
 Transform:
   m_ObjectHideFlags: 0
@@ -6555,7 +6555,7 @@ PrefabInstance:
     - target: {fileID: 4002698037893516141, guid: 6eee2bad65ba64949bbcba5c83690854,
         type: 3}
       propertyPath: m_TagString
-      value: Portal 3 nr2
+      value: B
       objectReference: {fileID: 0}
     - target: {fileID: 4002698039710111467, guid: 6eee2bad65ba64949bbcba5c83690854,
         type: 3}
@@ -7248,7 +7248,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &401064898
 Transform:
   m_ObjectHideFlags: 0
@@ -8253,7 +8253,7 @@ PrefabInstance:
     - target: {fileID: 4002698037893516141, guid: 6eee2bad65ba64949bbcba5c83690854,
         type: 3}
       propertyPath: m_TagString
-      value: Portal 8
+      value: B
       objectReference: {fileID: 0}
     - target: {fileID: 4002698039710111467, guid: 6eee2bad65ba64949bbcba5c83690854,
         type: 3}
@@ -9766,7 +9766,7 @@ PrefabInstance:
     - target: {fileID: 4002698037893516141, guid: 6eee2bad65ba64949bbcba5c83690854,
         type: 3}
       propertyPath: m_TagString
-      value: Portal 3
+      value: A
       objectReference: {fileID: 0}
     - target: {fileID: 4002698039710111467, guid: 6eee2bad65ba64949bbcba5c83690854,
         type: 3}
@@ -10642,7 +10642,7 @@ PrefabInstance:
     - target: {fileID: 4002698037893516141, guid: 6eee2bad65ba64949bbcba5c83690854,
         type: 3}
       propertyPath: m_TagString
-      value: Level 10
+      value: A
       objectReference: {fileID: 0}
     - target: {fileID: 4002698039710111467, guid: 6eee2bad65ba64949bbcba5c83690854,
         type: 3}
@@ -11233,7 +11233,7 @@ PrefabInstance:
     - target: {fileID: 4002698037893516141, guid: 6eee2bad65ba64949bbcba5c83690854,
         type: 3}
       propertyPath: m_TagString
-      value: Portal 11 nr2
+      value: B
       objectReference: {fileID: 0}
     - target: {fileID: 4002698039710111467, guid: 6eee2bad65ba64949bbcba5c83690854,
         type: 3}
@@ -12475,7 +12475,7 @@ PrefabInstance:
     - target: {fileID: 4002698037893516141, guid: 6eee2bad65ba64949bbcba5c83690854,
         type: 3}
       propertyPath: m_TagString
-      value: Portal 4
+      value: B
       objectReference: {fileID: 0}
     - target: {fileID: 4002698039710111467, guid: 6eee2bad65ba64949bbcba5c83690854,
         type: 3}
@@ -12847,7 +12847,7 @@ PrefabInstance:
     - target: {fileID: 4002698037893516141, guid: 6eee2bad65ba64949bbcba5c83690854,
         type: 3}
       propertyPath: m_TagString
-      value: Portal 2
+      value: B
       objectReference: {fileID: 0}
     - target: {fileID: 4002698039710111467, guid: 6eee2bad65ba64949bbcba5c83690854,
         type: 3}
@@ -16822,7 +16822,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &985533745
 Transform:
   m_ObjectHideFlags: 0
@@ -18172,7 +18172,7 @@ PrefabInstance:
     - target: {fileID: 4002698037893516141, guid: 6eee2bad65ba64949bbcba5c83690854,
         type: 3}
       propertyPath: m_TagString
-      value: Portal 6
+      value: A
       objectReference: {fileID: 0}
     - target: {fileID: 4002698039710111467, guid: 6eee2bad65ba64949bbcba5c83690854,
         type: 3}
@@ -21564,7 +21564,7 @@ PrefabInstance:
     - target: {fileID: 4002698037893516141, guid: 6eee2bad65ba64949bbcba5c83690854,
         type: 3}
       propertyPath: m_TagString
-      value: Portal 5
+      value: A
       objectReference: {fileID: 0}
     - target: {fileID: 4002698039710111467, guid: 6eee2bad65ba64949bbcba5c83690854,
         type: 3}
@@ -25939,7 +25939,7 @@ PrefabInstance:
     - target: {fileID: 4002698037893516141, guid: 6eee2bad65ba64949bbcba5c83690854,
         type: 3}
       propertyPath: m_TagString
-      value: Portal 13
+      value: B
       objectReference: {fileID: 0}
     - target: {fileID: 4002698039710111467, guid: 6eee2bad65ba64949bbcba5c83690854,
         type: 3}
@@ -31454,7 +31454,7 @@ PrefabInstance:
     - target: {fileID: 4002698037893516141, guid: 6eee2bad65ba64949bbcba5c83690854,
         type: 3}
       propertyPath: m_TagString
-      value: Portal 1
+      value: A
       objectReference: {fileID: 0}
     - target: {fileID: 4002698039710111478, guid: 6eee2bad65ba64949bbcba5c83690854,
         type: 3}
@@ -33614,7 +33614,7 @@ PrefabInstance:
     - target: {fileID: 4002698037893516141, guid: 6eee2bad65ba64949bbcba5c83690854,
         type: 3}
       propertyPath: m_TagString
-      value: Portal 9
+      value: B
       objectReference: {fileID: 0}
     - target: {fileID: 4002698039710111467, guid: 6eee2bad65ba64949bbcba5c83690854,
         type: 3}
