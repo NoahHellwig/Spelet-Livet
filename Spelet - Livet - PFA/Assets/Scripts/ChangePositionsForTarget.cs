@@ -209,10 +209,30 @@ public class ChangePositionsForTarget : MonoBehaviour
                     GameInfo.avatarCloseToTarget = false;
                 }
 
+                else if (GameInfo.keyType == "Key 5" && GameInfo.playerCloseToTarget == true && GameInfo.avatarCloseToTarget == true)
+                {
+                    this.transform.position = choiceTwoDoorApass.position;
+                    choiceTwoMade = true;
+                    GameInfo.avatarCloseToTarget = false;
+                }
+
+                else if (GameInfo.keyType == "Key 3 nr2" && GameInfo.playerCloseToTarget == true && GameInfo.avatarCloseToTarget == true)
+                {
+                    this.transform.position = choiceTwoDoorBpass.position;
+                    choiceTwoMade = true;
+                    GameInfo.avatarCloseToTarget = false;
+                }
+
                 else if (GameInfo.keyType == "Key 3") // *** BYT NAMN PÅ STRING SOM SÄGER Key 1 TILL NYA NYCKELNAMN SOM I KeyScripts när det ändras där ***
                 { this.transform.position = choiceTwoDoorA.position; }
 
                 else if (GameInfo.keyType == "Key 4") // *** BYT NAMN PÅ STRING SOM SÄGER Key 2 TILL NYA NYCKELNAMN SOM I KeyScripts när det ändras där ***
+                { this.transform.position = choiceTwoDoorB.position; }
+
+                else if (GameInfo.keyType == "Key 5") // *** BYT NAMN PÅ STRING SOM SÄGER Key 1 TILL NYA NYCKELNAMN SOM I KeyScripts när det ändras där ***
+                { this.transform.position = choiceTwoDoorA.position; }
+
+                else if (GameInfo.keyType == "Key 3 nr2") // *** BYT NAMN PÅ STRING SOM SÄGER Key 2 TILL NYA NYCKELNAMN SOM I KeyScripts när det ändras där ***
                 { this.transform.position = choiceTwoDoorB.position; }
 
                 else { this.transform.position = choiceTwo.position; }
@@ -234,24 +254,44 @@ public class ChangePositionsForTarget : MonoBehaviour
         {
             if (choiceThreeMade == false)
             {
-                if (GameInfo.keyType == "Key 5" && GameInfo.playerCloseToTarget == true && GameInfo.avatarCloseToTarget == true)
+                if (GameInfo.keyType == "Key 6" && GameInfo.playerCloseToTarget == true && GameInfo.avatarCloseToTarget == true)
                 {
                     this.transform.position = choiceThreeDoorApass.position;
                     choiceThreeMade = true;
                     GameInfo.avatarCloseToTarget = false;
                 }
 
-                else if (GameInfo.keyType == "Key 6" && GameInfo.playerCloseToTarget == true && GameInfo.avatarCloseToTarget == true)
+                else if (GameInfo.keyType == "Key 8" && GameInfo.playerCloseToTarget == true && GameInfo.avatarCloseToTarget == true)
                 {
                     this.transform.position = choiceThreeDoorBpass.position;
                     choiceThreeMade = true;
                     GameInfo.avatarCloseToTarget = false;
                 }
 
-                else if (GameInfo.keyType == "Key 5") // *** BYT NAMN PÅ STRING SOM SÄGER Key 1 TILL NYA NYCKELNAMN SOM I KeyScripts när det ändras där ***
+                else if (GameInfo.keyType == "Key 7" && GameInfo.playerCloseToTarget == true && GameInfo.avatarCloseToTarget == true)
+                {
+                    this.transform.position = choiceThreeDoorApass.position;
+                    choiceThreeMade = true;
+                    GameInfo.avatarCloseToTarget = false;
+                }
+
+                else if (GameInfo.keyType == "Key 9" && GameInfo.playerCloseToTarget == true && GameInfo.avatarCloseToTarget == true)
+                {
+                    this.transform.position = choiceThreeDoorBpass.position;
+                    choiceThreeMade = true;
+                    GameInfo.avatarCloseToTarget = false;
+                }
+
+                else if (GameInfo.keyType == "Key 6") // *** BYT NAMN PÅ STRING SOM SÄGER Key 1 TILL NYA NYCKELNAMN SOM I KeyScripts när det ändras där ***
                 { this.transform.position = choiceThreeDoorA.position; }
 
-                else if (GameInfo.keyType == "Key 6") // *** BYT NAMN PÅ STRING SOM SÄGER Key 2 TILL NYA NYCKELNAMN SOM I KeyScripts när det ändras där ***
+                else if (GameInfo.keyType == "Key 8") // *** BYT NAMN PÅ STRING SOM SÄGER Key 2 TILL NYA NYCKELNAMN SOM I KeyScripts när det ändras där ***
+                { this.transform.position = choiceThreeDoorB.position; }
+
+                else if (GameInfo.keyType == "Key 7") // *** BYT NAMN PÅ STRING SOM SÄGER Key 1 TILL NYA NYCKELNAMN SOM I KeyScripts när det ändras där ***
+                { this.transform.position = choiceThreeDoorA.position; }
+
+                else if (GameInfo.keyType == "Key 9") // *** BYT NAMN PÅ STRING SOM SÄGER Key 2 TILL NYA NYCKELNAMN SOM I KeyScripts när det ändras där ***
                 { this.transform.position = choiceThreeDoorB.position; }
 
                 else { this.transform.position = choiceThree.position; }
@@ -289,10 +329,19 @@ public class ChangePositionsForTarget : MonoBehaviour
                     GameInfo.avatarCloseToTarget = false;
                 }
 
-                else if (GameInfo.keyType == "Key 7") // *** BYT NAMN PÅ STRING SOM SÄGER Key 1 TILL NYA NYCKELNAMN SOM I KeyScripts när det ändras där ***
+                else if (GameInfo.keyType == "Key 10") // *** BYT NAMN PÅ STRING SOM SÄGER Key 1 TILL NYA NYCKELNAMN SOM I KeyScripts när det ändras där ***
                 { this.transform.position = choiceFourDoorA.position; }
 
-                else if (GameInfo.keyType == "Key 8") // *** BYT NAMN PÅ STRING SOM SÄGER Key 2 TILL NYA NYCKELNAMN SOM I KeyScripts när det ändras där ***
+                else if (GameInfo.keyType == "Key 11") // *** BYT NAMN PÅ STRING SOM SÄGER Key 2 TILL NYA NYCKELNAMN SOM I KeyScripts när det ändras där ***
+                { this.transform.position = choiceFourDoorA.position; }
+
+                else if (GameInfo.keyType == "Key 11 nr2") // *** BYT NAMN PÅ STRING SOM SÄGER Key 1 TILL NYA NYCKELNAMN SOM I KeyScripts när det ändras där ***
+                { this.transform.position = choiceFourDoorB.position; }
+
+                else if (GameInfo.keyType == "Key 12") // *** BYT NAMN PÅ STRING SOM SÄGER Key 2 TILL NYA NYCKELNAMN SOM I KeyScripts när det ändras där ***
+                { this.transform.position = choiceFourDoorB.position; }
+
+                else if (GameInfo.keyType == "Key 13") // *** BYT NAMN PÅ STRING SOM SÄGER Key 2 TILL NYA NYCKELNAMN SOM I KeyScripts när det ändras där ***
                 { this.transform.position = choiceFourDoorB.position; }
 
                 else { this.transform.position = choiceFour.position; }
