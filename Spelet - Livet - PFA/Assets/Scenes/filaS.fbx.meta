@@ -1,0 +1,157 @@
+fileFormatVersion: 2
+guid: 1bdbac4a217fa459a9baaf66c0846f63
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: -7667074644531989579
+    second: stilla|Action.001
+  - first:
+      74: 418830117822095473
+    second: stilla|Action.002
+  - first:
+      74: 5303793672233664598
+    second: stilla|Cube.006Action
+  - first:
+      74: -8037260665984346982
+    second: stilla|Cube.006Action.001
+  - first:
+      74: -1682256639742643114
+    second: stilla|Cube.006Action.002
+  - first:
+      74: -8302554018925569232
+    second: stilla|Cube.006Action.003
+  - first:
+      74: -8956591634907844448
+    second: stilla|Cube.006Action.004
+  - first:
+      74: -4290319810000424256
+    second: stilla|Cube.006Action.006
+  - first:
+      74: -7625729724872212061
+    second: stilla|Cube.006Action.007
+  - first:
+      74: -5726578394072553485
+    second: stilla|denAn
+  - first:
+      74: -3334706177666685346
+    second: stilla|gar
+  - first:
+      74: -6112376586252047908
+    second: stilla|gar.001
+  - first:
+      74: 8551695114242939860
+    second: stilla|gar.002
+  - first:
+      74: 8264552594264920213
+    second: stilla|gar.003
+  - first:
+      74: -5579947382586672342
+    second: stilla|gar.004
+  - first:
+      74: 7710265090029722544
+    second: stilla|gar.005
+  - first:
+      74: -1864646723891302714
+    second: stilla|gar.006
+  - first:
+      74: -9217524855118446876
+    second: stilla|metarigAction
+  - first:
+      74: -4362997056976188231
+    second: stilla|metarigAction.001
+  - first:
+      74: 5163267909308935559
+    second: stilla|star
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
