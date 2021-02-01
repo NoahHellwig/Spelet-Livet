@@ -23,7 +23,7 @@ public class Player : MonoBehaviour {
         bool hasHorizontalInput = !Mathf.Approximately(horizontal, 0f);
         bool hasVerticalInput = !Mathf.Approximately(vertical, 0f);
         bool isWalking = hasHorizontalInput || hasVerticalInput;
-        m_Animator.SetBool("IsWalking",isWalking);
+        m_Animator.SetBool("flyttarKropp",isWalking);
 
     }
 }

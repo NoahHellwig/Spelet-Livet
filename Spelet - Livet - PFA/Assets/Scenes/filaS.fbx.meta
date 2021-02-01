@@ -1,47 +1,68 @@
 fileFormatVersion: 2
-guid: 26136a1ec9ae645539c1fdf6228773cd
+guid: 1bdbac4a217fa459a9baaf66c0846f63
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable:
   - first:
-      74: -3177887380477274317
-    second: walking|Action
+      74: -7667074644531989579
+    second: stilla|Action.001
   - first:
-      74: 7282978711343163841
-    second: walking|Action.001
+      74: 418830117822095473
+    second: stilla|Action.002
   - first:
-      74: -7744798967106959974
-    second: walking|Action.002
+      74: 5303793672233664598
+    second: stilla|Cube.006Action
   - first:
-      74: -3672056833989665231
-    second: walking|Camera.001Action.001
+      74: -8037260665984346982
+    second: stilla|Cube.006Action.001
   - first:
-      74: 4089700637539729412
-    second: walking|Camera.001Action.002
+      74: -1682256639742643114
+    second: stilla|Cube.006Action.002
   - first:
-      74: -1826622793808623837
-    second: walking|Camera.001Action.003
+      74: -8302554018925569232
+    second: stilla|Cube.006Action.003
   - first:
-      74: 922974254740335558
-    second: walking|Cube.002Action
+      74: -8956591634907844448
+    second: stilla|Cube.006Action.004
   - first:
-      74: -5103985091651542925
-    second: walking|Cube.003Action
+      74: -4290319810000424256
+    second: stilla|Cube.006Action.006
   - first:
-      74: -5641345762707199620
-    second: walking|metarigAction
+      74: -7625729724872212061
+    second: stilla|Cube.006Action.007
   - first:
-      74: 5198159235102241060
-    second: walking|metarigAction.001
+      74: -5726578394072553485
+    second: stilla|denAn
   - first:
-      74: 1598494113201198378
-    second: walking|metarigAction.002
+      74: -3334706177666685346
+    second: stilla|gar
   - first:
-      74: -6452949535952204751
-    second: walking|walk
+      74: -6112376586252047908
+    second: stilla|gar.001
   - first:
-      74: -3419257869308726280
-    second: walk
+      74: 8551695114242939860
+    second: stilla|gar.002
+  - first:
+      74: 8264552594264920213
+    second: stilla|gar.003
+  - first:
+      74: -5579947382586672342
+    second: stilla|gar.004
+  - first:
+      74: 7710265090029722544
+    second: stilla|gar.005
+  - first:
+      74: -1864646723891302714
+    second: stilla|gar.006
+  - first:
+      74: -9217524855118446876
+    second: stilla|metarigAction
+  - first:
+      74: -4362997056976188231
+    second: stilla|metarigAction.001
+  - first:
+      74: 5163267909308935559
+    second: stilla|star
   externalObjects: {}
   materials:
     materialImportMode: 1
@@ -53,14 +74,14 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
-    motionNodeName: walking/spine
+    motionNodeName: 
     rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    importAnimatedCustomProperties: 1
+    importAnimatedCustomProperties: 0
     importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
@@ -69,36 +90,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: walk
-      takeName: walking|walk
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 30
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 1
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+    clipAnimations: []
     isReadable: 0
   meshes:
     lODScreenPercentages: []
